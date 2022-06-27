@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 D:\GameUnity\Hide & Seek Alarm Clocks
+=======
+D:\LY\Hide-Seek-Alarm-Clocks
+>>>>>>> remotes/origin/DenKach
