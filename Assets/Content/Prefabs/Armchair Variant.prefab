@@ -9,15 +9,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1502224823946702, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_Name
-      value: Armchair
+      value: Armchair Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_LocalPosition.x
