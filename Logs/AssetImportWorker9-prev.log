@@ -1,0 +1,280 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+D:/GameUnity/Hide & Seek Alarm Clocks
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+52093
+Successfully changed project path to: D:/GameUnity/Hide & Seek Alarm Clocks
+D:/GameUnity/Hide & Seek Alarm Clocks
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 125.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path D:/unity/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GameUnity/Hide & Seek Alarm Clocks/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'D:/unity/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004501 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 138.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GameUnity\Hide & Seek Alarm Clocks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GameUnity\Hide & Seek Alarm Clocks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.448 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1449ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1138ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3510 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (396.6 KB). Loaded Objects now: 3971.
+Memory consumption went from 130.3 MB to 129.9 MB.
+Total: 5.181500 ms (FindLiveObjects: 0.560600 ms CreateObjectMapping: 0.238000 ms MarkObjects: 4.183400 ms  DeleteObjects: 0.197700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 153485.226057 seconds.
+  path: Assets/TMI - Living Room/Materials/armchair.mat
+  artifactKey: Guid(e6dbaf548da41144b84220f817549ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Materials/armchair.mat using Guid(e6dbaf548da41144b84220f817549ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06a72bdf61adf261041188ca42ae492') in 0.175997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TMI - Living Room/Materials/bookB.mat
+  artifactKey: Guid(9257c408976b99d4ea35b95a091efd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Materials/bookB.mat using Guid(9257c408976b99d4ea35b95a091efd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8e24cb1ba0bcff187a574ef33d3306') in 0.011913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TMI - Living Room/Materials/mug.mat
+  artifactKey: Guid(a57b23d07aab6594ebce37ab295955de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Materials/mug.mat using Guid(a57b23d07aab6594ebce37ab295955de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d4f0145bc24ff16617eac17cdb2c0a') in 0.009069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TMI - Living Room/Materials/plant.mat
+  artifactKey: Guid(9ac4ff499d2084f4d9420e17955e5a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Materials/plant.mat using Guid(9ac4ff499d2084f4d9420e17955e5a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92db181e212ed327381d4b5e1f9d55f') in 0.009021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TMI - Living Room/Materials/tea cup.mat
+  artifactKey: Guid(87c445fc4233add4f83d15e252b4bb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Materials/tea cup.mat using Guid(87c445fc4233add4f83d15e252b4bb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145cf6d96fd9b0ba70e1524d509b563b') in 0.008893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TMI - Living Room/Materials/bookA.mat
+  artifactKey: Guid(be0228326553b8049b69a6a6ea04561c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Materials/bookA.mat using Guid(be0228326553b8049b69a6a6ea04561c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8f40fa7bf65a4b3b33a84d36aea66f') in 0.008833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TMI - Living Room/Materials/Shelf.mat
+  artifactKey: Guid(b04cfb074f958fb4da82cddc50bb0dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Materials/Shelf.mat using Guid(b04cfb074f958fb4da82cddc50bb0dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7155eb5ad5c06bcc4baf64433e723a7f') in 0.009822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TMI - Living Room/Materials/frame.mat
+  artifactKey: Guid(d0eaf45e192d44e4c8ba2ecb271f8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Materials/frame.mat using Guid(d0eaf45e192d44e4c8ba2ecb271f8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a58cb78f9bc93d49bd8852fadb66d5') in 0.008690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.191940 seconds.
+  path: Assets/TMI - Living Room/Models/bookB.obj
+  artifactKey: Guid(12638240404cf834b9dd5be87709836f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Models/bookB.obj using Guid(12638240404cf834b9dd5be87709836f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c13413187b3f2fe5ba5331157b56ee4') in 0.097533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TMI - Living Room/Models/plant.obj
+  artifactKey: Guid(7861df6398c781647be6ef807e391582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Models/plant.obj using Guid(7861df6398c781647be6ef807e391582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b2e0d2632254818c94f62d76a4b263') in 0.027301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TMI - Living Room/Models/sofa.obj
+  artifactKey: Guid(9a9969b0e8faf8d459c94028c4b5f6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Models/sofa.obj using Guid(9a9969b0e8faf8d459c94028c4b5f6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bd4cf7a056d9b8d70664ffa59f781a') in 0.030870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TMI - Living Room/Models/Shelf.obj
+  artifactKey: Guid(9ab4dcd3308e9144b8d72eb17df14260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Models/Shelf.obj using Guid(9ab4dcd3308e9144b8d72eb17df14260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47019ca6fd828c67d6c453263efb44a5') in 0.027591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TMI - Living Room/Models/TV.obj
+  artifactKey: Guid(6913149d758708e4187cfc45497460ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Models/TV.obj using Guid(6913149d758708e4187cfc45497460ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b1b3b9d729c4e57016e7b3795f13f3') in 0.026228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TMI - Living Room/Models/tea cup.obj
+  artifactKey: Guid(a2458ac12e0f22c44942726d58d4ee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Models/tea cup.obj using Guid(a2458ac12e0f22c44942726d58d4ee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863e41fb0b9d45315b549148c9f303c2') in 0.029906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TMI - Living Room/Models/TV 2.obj
+  artifactKey: Guid(9bf7b2e63afd4ba4fb0f41d30ccbcf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Models/TV 2.obj using Guid(9bf7b2e63afd4ba4fb0f41d30ccbcf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7eb51068bd1b836d506fe7bee5933c') in 0.026160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.461234 seconds.
+  path: Assets/TMI - Living Room/Prefabs/Bowl.prefab
+  artifactKey: Guid(c89abb856e19c1343a500f2a5040aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Prefabs/Bowl.prefab using Guid(c89abb856e19c1343a500f2a5040aa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220d63743ee6f5144ff7af980a3358c7') in 0.011737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TMI - Living Room/Prefabs/Frame.prefab
+  artifactKey: Guid(1e52b7e29fe76b7419e6c1d4e71cc836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Prefabs/Frame.prefab using Guid(1e52b7e29fe76b7419e6c1d4e71cc836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcee72656fcd11316ada2bf1449ed05d') in 0.008966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TMI - Living Room/Prefabs/TV 2.prefab
+  artifactKey: Guid(b349d83866cc5344ba5fa7774423378f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Prefabs/TV 2.prefab using Guid(b349d83866cc5344ba5fa7774423378f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4809c000347e8918f19346acc121c180') in 0.009512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TMI - Living Room/Prefabs/Plant.prefab
+  artifactKey: Guid(63cd93238b1e1bb42b989c84eea4d713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TMI - Living Room/Prefabs/Plant.prefab using Guid(63cd93238b1e1bb42b989c84eea4d713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601fc78b7d7b3935424881e22ea88c61') in 0.010666 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
