@@ -7,8 +7,10 @@ public class RoomScript : MonoBehaviour
 {
 
     [SerializeField] private List<GameObject> exits = new List<GameObject>();
+    [SerializeField] private GameObject center;
     private float[] rotateExits;
 
+    public Transform Center => center.transform;
 
     public (GameObject, float)[] Exits
     {
