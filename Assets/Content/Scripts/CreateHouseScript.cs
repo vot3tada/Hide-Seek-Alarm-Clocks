@@ -17,8 +17,13 @@ public class CreateHouseScript : MonoBehaviour
     [SerializeField] private GameObject[] corridors;
     [SerializeField] private GameObject[] rooms;
     [SerializeField] private GameObject[] environment;
-    [SerializeField] private GameObject[] walls;
-    [SerializeField] private GameObject[] windows;
+    [SerializeField] private GameObject[] roomWallPlugs;
+    [SerializeField] private GameObject[] roomWindowPlugs;
+
+    [SerializeField] private GameObject[] coridorWallPlugs;
+    [SerializeField] private GameObject[] coridorWindowPlugs;
+    [SerializeField] private GameObject coridorDoorPlug;
+
     [SerializeField] private GameObject person;
 
     void SpawnBedroom()
@@ -34,7 +39,7 @@ public class CreateHouseScript : MonoBehaviour
 
         exitsList.AddRange(currentRoom.GetComponent<RoomScript>().Exits);
         currentRooms.Add(currentRoom);
-        Instantiate(person, new Vector3(currentRoom.GetComponent<RoomScript>().Center.position.x - 1.5f, 1.5f, currentRoom.GetComponent<RoomScript>().Center.position.z), new Quaternion(0, 0, 0, 0));
+        Instantiate(person, new Vector3(currentRoom.GetComponent<RoomScript>().Center.position.x - 3f, 2f, currentRoom.GetComponent<RoomScript>().Center.position.z), new Quaternion(0, 0, 0, 0));
     }
 
 
@@ -57,7 +62,6 @@ public class CreateHouseScript : MonoBehaviour
             {
                 randomPlugNumber = Random.Range(0, rooms.Length);
                 currentRoom = Instantiate(rooms[randomPlugNumber]);
-
             }
             else
                 currentRoom = Instantiate(corridors[Random.Range(0, corridors.Length)]);
@@ -77,13 +81,18 @@ public class CreateHouseScript : MonoBehaviour
                 exitsList.AddRange(currentRoom.GetComponent<RoomScript>().Exits);
                 currentRooms.Add(currentRoom);
                 if (randomPlugNumber != -1)
+                {
                     foreach ((GameObject, float) exit in currentRoom.GetComponent<RoomScript>().Plugs)
-                        roomPlugList.Add((exit.Item1, exit.Item2, randomPlugNumber + 1));
+                        roomPlugList.Add((exit.Item1, exit.Item2, randomPlugNumber));
+                    Instantiate(coridorDoorPlug, 
+                        exitsList[randomExitNumber].Item1.transform.position,
+                        Quaternion.Euler(new Vector3(0.0f, exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y - exitsList[randomExitNumber].Item2, 0.0f)));
+                }
             }
             else
             {
                 Destroy(currentRoom);
-                currentRoom = Instantiate(walls[0]);
+                currentRoom = Instantiate(coridorWallPlugs[Random.Range(0, roomWallPlugs.Length)]);
                 currentRoom.transform.position = exitsList[randomExitNumber].Item1.transform.position;
                 currentRoom.transform.Rotate(0.0f, exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y - exitsList[randomExitNumber].Item2, 0.0f, Space.Self);
             }
@@ -92,6 +101,7 @@ public class CreateHouseScript : MonoBehaviour
             exitsList.RemoveAt(randomExitNumber);
         }
 
+        //corridors
         foreach ((GameObject, float) exit in exitsList)
         {
             currentRoom = Instantiate(corridors[0]);
@@ -102,17 +112,18 @@ public class CreateHouseScript : MonoBehaviour
                           (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % 32] == 0)
             {
                 Destroy(currentRoom);
-                currentRoom = Instantiate(windows[0]);
+                currentRoom = Instantiate(coridorWindowPlugs[Random.Range(0,roomWindowPlugs.Length)]);
             }
             else
             {
                 Destroy(currentRoom);
-                currentRoom = Instantiate(walls[0]);
+                currentRoom = Instantiate(coridorWallPlugs[Random.Range(0, roomWallPlugs.Length)]);
             }
             currentRoom.transform.position = exit.Item1.transform.position;
             currentRoom.transform.Rotate(0.0f, exit.Item1.transform.parent.rotation.eulerAngles.y - exit.Item2, 0.0f, Space.Self);
         }
 
+        //rooms
         foreach ((GameObject, float, int) exit in roomPlugList)
         {
             currentRoom = Instantiate(corridors[0]);
@@ -123,12 +134,12 @@ public class CreateHouseScript : MonoBehaviour
                           (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % 32] == 0)
             {
                 Destroy(currentRoom);
-                currentRoom = Instantiate(windows[exit.Item3]);
+                currentRoom = Instantiate(roomWindowPlugs[exit.Item3]);
             }
             else
             {
                 Destroy(currentRoom);
-                currentRoom = Instantiate(walls[exit.Item3]);
+                currentRoom = Instantiate(roomWallPlugs[exit.Item3]);
             }
             currentRoom.transform.position = exit.Item1.transform.position;
             currentRoom.transform.Rotate(0.0f, exit.Item1.transform.parent.rotation.eulerAngles.y - exit.Item2, 0.0f, Space.Self);
