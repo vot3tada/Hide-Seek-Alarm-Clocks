@@ -15,7 +15,7 @@ D:/GameUnity/Hide & Seek Alarm Clocks
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57006
+61814
 Successfully changed project path to: D:/GameUnity/Hide & Seek Alarm Clocks
 D:/GameUnity/Hide & Seek Alarm Clocks
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/GameUnity/Hide & Seek Alarm Clocks
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 120.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path D:/unity/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,78 @@ Initialize mono
 Mono path[0] = 'D:/unity/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unity/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004368 seconds.
+Registered in 0.004476 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 117.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.904 seconds
+- Completed reload, in  0.945 seconds
 Domain Reload Profiling:
-	ReloadAssembly (905ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (664ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (385ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
+				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004892 seconds.
+Registered in 0.004863 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GameUnity\Hide & Seek Alarm Clocks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GameUnity\Hide & Seek Alarm Clocks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-System.ArgumentException: There is no a valid NamedBuildTarget for BuildTargetGroup 'PSM'
-  at UnityEditor.Build.NamedBuildTarget.FromBuildTargetGroup (UnityEditor.BuildTargetGroup buildTargetGroup) [0x0014e] in <1f0be198f5164d2489de92f22c998266>:0 
-  at UnityEditor.PlayerSettings.GetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup targetGroup) [0x00000] in <1f0be198f5164d2489de92f22c998266>:0 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.GetDefinesList (UnityEditor.BuildTargetGroup group) [0x00000] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:135 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.SetEnabled (System.String defineName, System.Boolean enable, System.Boolean mobile) [0x00018] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:107 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize..cctor () [0x00050] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.542 seconds
+- Completed reload, in  1.471 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1543ms)
+	ReloadAssembly (1472ms)
 		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1214ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1152ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (406ms)
+			SetupTypeCache (391ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (558ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (519ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (375ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (338ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -153,81 +142,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3394 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (343.2 KB). Loaded Objects now: 3851.
+Unloading 28 unused Assets / (343.1 KB). Loaded Objects now: 3851.
 Memory consumption went from 124.5 MB to 124.2 MB.
-Total: 4.041000 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.159500 ms MarkObjects: 3.425600 ms  DeleteObjects: 0.141700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004551 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-System.ArgumentException: There is no a valid NamedBuildTarget for BuildTargetGroup 'PSM'
-  at UnityEditor.Build.NamedBuildTarget.FromBuildTargetGroup (UnityEditor.BuildTargetGroup buildTargetGroup) [0x0014e] in <1f0be198f5164d2489de92f22c998266>:0 
-  at UnityEditor.PlayerSettings.GetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup targetGroup) [0x00000] in <1f0be198f5164d2489de92f22c998266>:0 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.GetDefinesList (UnityEditor.BuildTargetGroup group) [0x00000] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:135 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.SetEnabled (System.String defineName, System.Boolean enable, System.Boolean mobile) [0x00018] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:107 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize..cctor () [0x00050] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.372 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1373ms)
-		BeginReloadAssembly (162ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1078ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (471ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (309.8 KB). Loaded Objects now: 3854.
-Memory consumption went from 122.1 MB to 121.8 MB.
-Total: 3.895000 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.154200 ms MarkObjects: 3.386600 ms  DeleteObjects: 0.071300 ms)
+Total: 3.986300 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.160400 ms MarkObjects: 3.394100 ms  DeleteObjects: 0.130200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -241,75 +162,175 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 213332.008219 seconds.
-  path: Assets/Content/Prefabs/LogicEnviorementPrefab.prefab
-  artifactKey: Guid(996ff5ee400f16346a5557c5a37abaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/Prefabs/LogicEnviorementPrefab.prefab using Guid(996ff5ee400f16346a5557c5a37abaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a417f408526656533600562c43719e60') in 0.163142 seconds 
+  Time since last request: 231444.881501 seconds.
+  path: Assets/Content/Sprites/Wall_Textures/Materials/Window_Wall-9 1.mat
+  artifactKey: Guid(045f4642d6057cc4c9c631ca91373c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Sprites/Wall_Textures/Materials/Window_Wall-9 1.mat using Guid(045f4642d6057cc4c9c631ca91373c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0d51a65b0008426a7a07d1f6cea348') in 0.196479 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004961 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-System.ArgumentException: There is no a valid NamedBuildTarget for BuildTargetGroup 'PSM'
-  at UnityEditor.Build.NamedBuildTarget.FromBuildTargetGroup (UnityEditor.BuildTargetGroup buildTargetGroup) [0x0014e] in <1f0be198f5164d2489de92f22c998266>:0 
-  at UnityEditor.PlayerSettings.GetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup targetGroup) [0x00000] in <1f0be198f5164d2489de92f22c998266>:0 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.GetDefinesList (UnityEditor.BuildTargetGroup group) [0x00000] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:135 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.SetEnabled (System.String defineName, System.Boolean enable, System.Boolean mobile) [0x00018] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:107 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize..cctor () [0x00050] in D:\GameUnity\Hide & Seek Alarm Clocks\Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.410 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1411ms)
-		BeginReloadAssembly (167ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1096ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (490ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (332ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (310.0 KB). Loaded Objects now: 3864.
-Memory consumption went from 126.5 MB to 126.2 MB.
-Total: 4.007800 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.144300 ms MarkObjects: 3.513100 ms  DeleteObjects: 0.067500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 576.679233 seconds.
+  path: Assets/Content/Materials/Wood-1.mat
+  artifactKey: Guid(fe2b51ae09552eb458e4dac2d3653f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wood-1.mat using Guid(fe2b51ae09552eb458e4dac2d3653f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c518a3a9ab1d96add81782502ca86b57') in 0.014590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.684066 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Door_Wall-2.png
+  artifactKey: Guid(790f3776922b9274b83077e5e912f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Door_Wall-2.png using Guid(790f3776922b9274b83077e5e912f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4eea87dfb62dce0098374d6ecdb2c9') in 0.197247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Door_Wall-5.png
+  artifactKey: Guid(1477d59491258364a93eef1bd4a09aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Door_Wall-5.png using Guid(1477d59491258364a93eef1bd4a09aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a981b1e55bcb1d73c7d26f9312c72f58') in 0.117880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Window-wall-7.png
+  artifactKey: Guid(9dfccbaf69663b8429a450d1fba5e9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Window-wall-7.png using Guid(9dfccbaf69663b8429a450d1fba5e9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d247e1ad8a8eb396fbbd45e7069bfd4') in 0.135533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Window-wall-2.png
+  artifactKey: Guid(0d699a85c406a0342928823d842caaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Window-wall-2.png using Guid(0d699a85c406a0342928823d842caaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24cf68c412fb5a2a0e408d55d399418') in 0.113069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Window-wall-3.png
+  artifactKey: Guid(14e2c2012b584a140857cd79889afc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Window-wall-3.png using Guid(14e2c2012b584a140857cd79889afc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9b71fd2e8e6915febbca46014af4b3') in 0.130927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Door_Wall-9.png
+  artifactKey: Guid(8aa9301e423c90d429d74a08069ce721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Door_Wall-9.png using Guid(8aa9301e423c90d429d74a08069ce721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559bdfb06b7352fc1412440826185cf5') in 0.133647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Wall-9.png
+  artifactKey: Guid(6ffba65bce206eb46ae941155b6739d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Wall-9.png using Guid(6ffba65bce206eb46ae941155b6739d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d6f3ee40c4eeb502409ca06f64a915') in 0.122155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Wall-2.png
+  artifactKey: Guid(bb9bae4ee02a9c947ad0b1a98430d4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Wall-2.png using Guid(bb9bae4ee02a9c947ad0b1a98430d4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9474a105d5d566edc3c284e33e488d6') in 0.117569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Window-wall-4.png
+  artifactKey: Guid(2fa21ee3cb47f9d4089901f4b99917af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Window-wall-4.png using Guid(2fa21ee3cb47f9d4089901f4b99917af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37206e23f95b8dad070b189763ce3df') in 0.120809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Window-wall-6.png
+  artifactKey: Guid(a0c8b9ea14f370c4cae8d2018ac375af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Window-wall-6.png using Guid(a0c8b9ea14f370c4cae8d2018ac375af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca599b28e62827a227af78593886f981') in 0.114722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Door_Wall-3.png
+  artifactKey: Guid(28290ac119286f14dae17c2ae437397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Door_Wall-3.png using Guid(28290ac119286f14dae17c2ae437397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac9bd93576f076940a5d7f84b969719') in 0.111733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Door_Wall-4.png
+  artifactKey: Guid(0a2c31513f97ac14fb0bbf77b8700d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Door_Wall-4.png using Guid(0a2c31513f97ac14fb0bbf77b8700d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324c058ffce6c19f09fea8cc2ed009f1') in 0.121726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Wall-4.png
+  artifactKey: Guid(451a7e57ad93c0643b95926c3892deb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Wall-4.png using Guid(451a7e57ad93c0643b95926c3892deb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2815c715ffa7f21a3ca02a26d112f15') in 0.108393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Content/Textures/Wall_Textures/Materials
+  artifactKey: Guid(1a1735c2833d19f40ae5066c302595a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/Wall_Textures/Materials using Guid(1a1735c2833d19f40ae5066c302595a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafb1b895710f5af05b0d1cee3eb1f95') in 0.001036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.022872 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Door_Wall-3.mat
+  artifactKey: Guid(1422e3b2fe5eb38459f5243047e05168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Door_Wall-3.mat using Guid(1422e3b2fe5eb38459f5243047e05168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bd8fb25d5fb4cf66f102b612d1a79a') in 0.011126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Window_Wall-9 1.mat
+  artifactKey: Guid(55c83e4395b337e44985905c36f61e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Window_Wall-9 1.mat using Guid(55c83e4395b337e44985905c36f61e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edac3d82bc950e633f1e2dacf35ee47') in 0.008874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Wall-6 1.mat
+  artifactKey: Guid(9d18fe6632a854f4dbd42aefeb891677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Wall-6 1.mat using Guid(9d18fe6632a854f4dbd42aefeb891677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457c42bc3258a86a62a94cd6425a0d90') in 0.011641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Wall-8 2.mat
+  artifactKey: Guid(ad2a85c10667bd141a09c191662c9fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Wall-8 2.mat using Guid(ad2a85c10667bd141a09c191662c9fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76df34cba037b75d4c3dd1c976843fd4') in 0.009107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Window_Wall-6.mat
+  artifactKey: Guid(deaba434cbeeba54daa4fc6b76f9f872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Window_Wall-6.mat using Guid(deaba434cbeeba54daa4fc6b76f9f872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef72a893d027ed7da99ba4261452ec78') in 0.010304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Door_Wall-7.mat
+  artifactKey: Guid(d7763f3f81a3564439d49e1488ed56a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Door_Wall-7.mat using Guid(d7763f3f81a3564439d49e1488ed56a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca3d8101207dfad8740ef0f66c84f29') in 0.008976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Window_Wall-7 2.mat
+  artifactKey: Guid(f18d4e694ee83b8468354d12fa09fb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Window_Wall-7 2.mat using Guid(f18d4e694ee83b8468354d12fa09fb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e944cf03b1c57c20f95b2600c1f2a152') in 0.011558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Wall-7 1.mat
+  artifactKey: Guid(ba9895ea8c9828b4f8bc08a55ac0699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Wall-7 1.mat using Guid(ba9895ea8c9828b4f8bc08a55ac0699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ed283d74d924395c9c0771864b6ed4') in 0.008185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Wall-5 1.mat
+  artifactKey: Guid(e0afea6e76eb24e439ad03de973ef0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Wall-5 1.mat using Guid(e0afea6e76eb24e439ad03de973ef0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be47c442256a023315eb108b312e447e') in 0.009529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Wall-3.mat
+  artifactKey: Guid(0668ae5a3baf82e468c78a2620ae4e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Wall-3.mat using Guid(0668ae5a3baf82e468c78a2620ae4e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83295b6bdde116352d9cd0f6c3b9204') in 0.009849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Window_Wall-3.mat
+  artifactKey: Guid(c2b9e7ab8d554f24bba8ea468c000533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Window_Wall-3.mat using Guid(c2b9e7ab8d554f24bba8ea468c000533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a82030512628219ad7e933608e5f8d') in 0.009108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Content/Materials/Wall_Materials/Window_Wall-8 1.mat
+  artifactKey: Guid(34d76ecb3e35fd740b72b8d15e438664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials/Wall_Materials/Window_Wall-8 1.mat using Guid(34d76ecb3e35fd740b72b8d15e438664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b1b68202b4a1d3c2e74af9a97c6f4c') in 0.009842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 280.530675 seconds.
+  path: Assets/Content/Prefabs/Window_wall.prefab
+  artifactKey: Guid(8e03982f82833ff4bace606fe996b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Prefabs/Window_wall.prefab using Guid(8e03982f82833ff4bace606fe996b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78808a37ef33fb6483b24fe78e14fa01') in 0.031063 seconds 

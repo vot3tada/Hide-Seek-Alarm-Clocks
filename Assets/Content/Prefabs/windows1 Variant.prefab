@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: b8bd3cc996dfed54fad99d3e263292ea, type: 3}
       propertyPath: m_Name
-      value: windows1
+      value: windows1 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b8bd3cc996dfed54fad99d3e263292ea, type: 3}
       propertyPath: m_RootOrder
@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b8bd3cc996dfed54fad99d3e263292ea, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 4.86
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b8bd3cc996dfed54fad99d3e263292ea, type: 3}
       propertyPath: m_LocalScale.y
