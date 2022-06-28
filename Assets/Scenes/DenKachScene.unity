@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomsCount: 16
-  roomSize: 6
+  roomSize: 16
   bedRoom: {fileID: 787603991111280132, guid: ffb4a16d77b0e0c48a50546a64680cc8, type: 3}
   corridors:
   - {fileID: 787603991111280132, guid: ffb4a16d77b0e0c48a50546a64680cc8, type: 3}
