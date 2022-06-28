@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Game\Hide-Seek-Alarm-Clocks
-=======
-D:\LY\Hide and Seek
->>>>>>> remotes/origin/DenKach
-=======
-C:\Gama\Hide-Seek-Alarm-Clocks
->>>>>>> remotes/origin/Sitiy
