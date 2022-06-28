@@ -3,6 +3,7 @@
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 { "pid": 35942, "tid": 1, "ts": 1656421594582090, "dur": 453079, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1656421594583975, "dur": 101058, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
@@ -33,3 +34,12 @@
 =======
 >>>>>>> remotes/origin/master
 >>>>>>> remotes/origin/DenKach
+=======
+{ "pid": 35942, "tid": 1, "ts": 1656434180345257, "dur": 686478, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656434180347913, "dur": 151178, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656434180917220, "dur": 7727, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656434180924953, "dur": 106734, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656434180926178, "dur": 79226, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656434181043611, "dur": 2813, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656434181041724, "dur": 4771, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+>>>>>>> remotes/origin/Sitiy

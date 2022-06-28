@@ -1,6 +1,7 @@
 sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Test Room.unity
 =======
 - path: Assets/PlayerLocation.unity
@@ -8,6 +9,9 @@ sceneSetups:
 =======
 - path: Assets/Scenes/DenKachScene.unity
 >>>>>>> remotes/origin/DenKach
+=======
+- path: Assets/Content/Prefabs/Person/PlayerLocation.unity
+>>>>>>> remotes/origin/Sitiy
   isLoaded: 1
   isActive: 1
   isSubScene: 0
