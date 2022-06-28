@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 65d72c72ddc604743bc5f25de7f6c934
+  productGUID: 76bd9daba6325a74a9b8a9d64d9f0e35
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Hide-Seek-Alarm-Clocks
+  productName: Hide & Seek Alarm Clocks
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -556,14 +556,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Hide-Seek-Alarm-Clocks
+  metroPackageName: Hide & Seek Alarm Clocks
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Hide-Seek-Alarm-Clocks
+  metroApplicationDescription: Hide & Seek Alarm Clocks
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
