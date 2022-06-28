@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Test Room.unity
 =======
 - path: Assets/PlayerLocation.unity
 >>>>>>> remotes/origin/DichMS
+=======
+- path: Assets/Scenes/DenKachScene.unity
+>>>>>>> remotes/origin/DenKach
   isLoaded: 1
   isActive: 1
   isSubScene: 0
