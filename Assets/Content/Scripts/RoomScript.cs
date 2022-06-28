@@ -7,8 +7,10 @@ public class RoomScript : MonoBehaviour
 {
 
     [SerializeField] private List<GameObject> exits = new List<GameObject>();
+    [SerializeField] private List<GameObject> plugs = new List<GameObject>();
     [SerializeField] private GameObject center;
     private float[] rotateExits;
+    private float[] rotatePlugs;
 
     public Transform Center => center.transform;
 
@@ -25,6 +27,19 @@ public class RoomScript : MonoBehaviour
         }
     }
 
+    public (GameObject, float)[] Plugs
+    {
+        get
+        {
+            (GameObject, float)[] plugs = new (GameObject, float)[this.plugs.Count];
+            for (int i = 0; i < plugs.Length; i++)
+            {
+                plugs[i] = (this.plugs[i], rotatePlugs[i]);
+            }
+            return plugs;
+        }
+    }
+
 
     void Awake()
     {
@@ -32,6 +47,12 @@ public class RoomScript : MonoBehaviour
         for (int i = 0; i < exits.Count; i++)
         {
             rotateExits[i] = 90 * Math.Sign(exits[i].transform.localPosition.z);
+        }
+
+        rotatePlugs = new float[plugs.Count];
+        for (int i = 0; i < plugs.Count; i++)
+        {
+            rotatePlugs[i] = 90 * Math.Sign(plugs[i].transform.localPosition.z);
         }
     }
 }
