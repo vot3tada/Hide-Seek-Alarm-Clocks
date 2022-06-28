@@ -56,8 +56,140 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\LerpControlledBob.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Content\Scripts\CreateHouseScript.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\CurveControlledBob.cs" />
     <Compile Include="Assets\Scripts\MouseControl.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Open.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Scripts\Interaction.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Content\Scripts\RoomScript.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Runtime\Models\DitheringModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Cat_Clock\Documentation\Documentation.txt" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\VIRTI\VOXEL-Forniture-FREE\Example\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -632,14 +764,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{B0BA36D7-ADC5-63E7-498A-AFD368D99146}</Project>
-      <Name>Unity.Services.Core.Analytics.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{6A0B11DF-EF96-0F33-BA9F-D1B79162CFF0}</Project>
-      <Name>Unity.Services.Core.Environments.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{9CE71318-1F5F-245E-A59E-E0B6F0B95EC8}</Project>
       <Name>Unity.Timeline.Player</Name>
@@ -660,13 +784,21 @@
       <Project>{32AF9835-E340-3A3C-716B-E14371F4D0F4}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{C1A7C072-1C21-DC05-9BAA-5A40AB23312E}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{30539182-2580-3A90-4B21-26936568DAB5}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
+      <Project>{B0BA36D7-ADC5-63E7-498A-AFD368D99146}</Project>
+      <Name>Unity.Services.Core.Analytics.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
+      <Project>{6A0B11DF-EF96-0F33-BA9F-D1B79162CFF0}</Project>
+      <Name>Unity.Services.Core.Environments.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{C1A7C072-1C21-DC05-9BAA-5A40AB23312E}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
