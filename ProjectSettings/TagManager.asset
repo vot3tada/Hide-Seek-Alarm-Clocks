@@ -4,18 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - HorizontalTriggerExit
-<<<<<<< HEAD
-  - Room
-=======
-  - Clock
-  - Door
->>>>>>> remotes/origin/DichMS
-=======
   - Room
   - Plug
->>>>>>> remotes/origin/DenKach
   layers:
   - Default
   - TransparentFX

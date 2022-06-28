@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 5952055767246947036}
   - component: {fileID: 5952055767246947037}
   - component: {fileID: 5952055767246947042}
+  - component: {fileID: 3237880662741432505}
   m_Layer: 0
   m_Name: FirstPersonController
   m_TagString: Untagged
@@ -261,3 +262,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11b59200b0da6eb4bbd462f05018f5b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3237880662741432505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5952055767246947043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86576ddc7213bd43bc70fe15f8c4a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mcCamera: {fileID: 5952055765844118413}
+  maxDistance: 3.5

@@ -314,15 +314,7 @@ InputManager:
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    positiveButton: c
-=======
     positiveButton: left ctrl
->>>>>>> remotes/origin/DichMS
-=======
-    positiveButton: left ctrl
->>>>>>> remotes/origin/DenKach
     altNegativeButton: 
     altPositiveButton: joystick button 1
     gravity: 1000
