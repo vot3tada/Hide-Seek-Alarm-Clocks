@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Base path: 'D:/unity/2021.3.5f1/Editor/Data', plugins path 'D:/unity/2021.3.5f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
@@ -14,3 +15,8 @@ Cmd: compileSnippet
 Cmd: shutdown
 =======
 >>>>>>> remotes/origin/DichMS
+=======
+Base path: 'D:/Unity/2021.3.5f1/Editor/Data', plugins path 'D:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+>>>>>>> remotes/origin/DenKach

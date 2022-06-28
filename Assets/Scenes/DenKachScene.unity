@@ -220,10 +220,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76c8cc5597626a449abbcd92994f23a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomRadius: 3
-  bedRoom: {fileID: 787603991111280132, guid: 47b6f36eaa3be8b47ad9fa26cba5ca36, type: 3}
+  roomsCount: 16
+  roomSize: 6
+  bedRoom: {fileID: 787603991111280132, guid: ffb4a16d77b0e0c48a50546a64680cc8, type: 3}
   corridors:
+  - {fileID: 787603991111280132, guid: ffb4a16d77b0e0c48a50546a64680cc8, type: 3}
+  rooms:
   - {fileID: 787603991111280132, guid: 47b6f36eaa3be8b47ad9fa26cba5ca36, type: 3}
+  environment:
+  - {fileID: 787603991111280132, guid: 996ff5ee400f16346a5557c5a37abaf6, type: 3}
 --- !u!1 &1428774792
 GameObject:
   m_ObjectHideFlags: 0

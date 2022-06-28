@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 === Mon Jun 27 12:51:01 2022
 
 Packages were changed.
@@ -8,13 +9,19 @@ Update Mode: mergeDefaultDependencies
 The following packages were added:
 =======
 === Mon Jun 27 13:10:19 2022
+=======
+=== Mon Jun 27 14:14:31 2022
+>>>>>>> remotes/origin/DenKach
 
 Packages were changed.
 Update Mode: resetToDefaultDependencies
 
 The following packages were added:
   com.unity.collab-proxy@1.15.18
+<<<<<<< HEAD
 >>>>>>> remotes/origin/DichMS
+=======
+>>>>>>> remotes/origin/DenKach
   com.unity.ide.rider@3.0.14
   com.unity.ide.visualstudio@2.0.15
   com.unity.ide.vscode@1.2.5
@@ -51,13 +58,19 @@ The following packages were added:
   com.unity.modules.xr@1.0.0
   com.unity.test-framework@1.1.31
 <<<<<<< HEAD
+<<<<<<< HEAD
   com.unity.visualscripting@1.7.8
 The following packages were updated:
   com.unity.collab-proxy from version 1.13.5 to 1.15.18
   com.unity.timeline from version 1.6.2 to 1.6.4
 =======
+=======
+>>>>>>> remotes/origin/DenKach
   com.unity.textmeshpro@3.0.6
   com.unity.timeline@1.6.4
   com.unity.ugui@1.0.0
   com.unity.visualscripting@1.7.8
+<<<<<<< HEAD
 >>>>>>> remotes/origin/DichMS
+=======
+>>>>>>> remotes/origin/DenKach

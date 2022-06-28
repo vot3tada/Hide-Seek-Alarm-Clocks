@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
+<<<<<<< HEAD
   productGUID: 6b61a75a0d71c6d4b9d14cde7766d233
+=======
+  productGUID: 2cc78f66f48e471469a17c56255f8d22
+>>>>>>> remotes/origin/DenKach
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: Hide & Seek Alarm Clocks
+=======
+  productName: Hide-Seek-Alarm-Clocks
+>>>>>>> remotes/origin/DenKach
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -149,16 +157,24 @@ PlayerSettings:
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
+<<<<<<< HEAD
   targetPixelDensity: 30
+=======
+  targetPixelDensity: 0
+>>>>>>> remotes/origin/DenKach
   resolutionScalingMode: 0
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier: {}
+<<<<<<< HEAD
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
+=======
+  buildNumber: {}
+>>>>>>> remotes/origin/DenKach
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
@@ -176,10 +192,17 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
+<<<<<<< HEAD
   iOSTargetOSVersionString: 11.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 11.0
+=======
+  iOSTargetOSVersionString: 
+  tvOSSdkVersion: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 
+>>>>>>> remotes/origin/DenKach
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -534,10 +557,14 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
+<<<<<<< HEAD
   scriptingDefineSymbols:
     Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     Standalone: CROSS_PLATFORM_INPUT
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+=======
+  scriptingDefineSymbols: {}
+>>>>>>> remotes/origin/DenKach
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -556,14 +583,22 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: Hide & Seek Alarm Clocks
+=======
+  metroPackageName: Hide-Seek-Alarm-Clocks
+>>>>>>> remotes/origin/DenKach
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
   metroApplicationDescription: Hide & Seek Alarm Clocks
+=======
+  metroApplicationDescription: Hide-Seek-Alarm-Clocks
+>>>>>>> remotes/origin/DenKach
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
