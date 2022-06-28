@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 12}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1904
@@ -28,11 +29,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 82
 =======
+=======
+>>>>>>> remotes/origin/DichMS
     width: 1536
     height: 730.8
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 64
 >>>>>>> remotes/origin/DichMS
 =======
@@ -43,6 +47,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 61
 >>>>>>> remotes/origin/DenKach
+=======
+  controlID: 15514
+>>>>>>> remotes/origin/DichMS
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -52,6 +59,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
@@ -596,6 +604,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+=======
+>>>>>>> remotes/origin/DichMS
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -603,6 +613,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -617,14 +628,17 @@ MonoBehaviour:
     width: 949
     height: 797
 =======
+=======
+>>>>>>> remotes/origin/DichMS
     m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 290.4
     y: 73.6
-    width: 879.6
+    width: 880.4
     height: 411.8
+<<<<<<< HEAD
 >>>>>>> remotes/origin/DichMS
 =======
     x: 363
@@ -632,6 +646,8 @@ MonoBehaviour:
     width: 1101
     height: 544
 >>>>>>> remotes/origin/DenKach
+=======
+>>>>>>> remotes/origin/DichMS
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -641,6 +657,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
+<<<<<<< HEAD
       snapOffset: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,6 +668,10 @@ MonoBehaviour:
 =======
       snapOffsetDelta: {x: -101, y: -26}
 >>>>>>> remotes/origin/DenKach
+=======
+      snapOffset: {x: -100, y: -26.399994}
+      snapOffsetDelta: {x: 0, y: 0}
+>>>>>>> remotes/origin/DichMS
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -847,6 +868,7 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 102.01452, y: 15.688044, z: -51.73262}
     speed: 2
     m_Value: {x: 102.01452, y: 15.688044, z: -51.73262}
@@ -860,6 +882,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 248, y: -0.075, z: 240}
 >>>>>>> remotes/origin/DenKach
+=======
+    m_Target: {x: -816.3731, y: -781.7433, z: 352.75085}
+    speed: 2
+    m_Value: {x: -816.15405, y: -781.7433, z: 353.2384}
+>>>>>>> remotes/origin/DichMS
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -887,6 +914,7 @@ MonoBehaviour:
       m_Pivot: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Size: {x: 0, y: 0}
 =======
       m_Size: {x: 1, y: 1}
@@ -894,6 +922,9 @@ MonoBehaviour:
 =======
       m_Size: {x: 0, y: 0}
 >>>>>>> remotes/origin/DenKach
+=======
+      m_Size: {x: 0, y: 0}
+>>>>>>> remotes/origin/DichMS
     yGrid:
       m_Fade:
         m_Target: 1
@@ -908,10 +939,10 @@ MonoBehaviour:
         speed: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
-        m_Value: 1
+<<<<<<< HEAD
 =======
-        m_Value: 0
 >>>>>>> remotes/origin/DichMS
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -927,12 +958,17 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.29551598, y: -0.59336907, z: 0.24840657, w: 0.7064489}
+=======
+    m_Target: {x: -0.2967396, y: 0.5081395, z: -0.19196807, w: -0.7854802}
+>>>>>>> remotes/origin/DichMS
     speed: 2
-    m_Value: {x: 0.29479873, y: -0.5926231, z: 0.24705032, w: 0.70771307}
+    m_Value: {x: -0.29614893, y: 0.51047045, z: -0.19284865, w: -0.78391665}
   m_Size:
-    m_Target: 3.047177
+    m_Target: 595.33856
     speed: 2
+<<<<<<< HEAD
     m_Value: 3.047177
 =======
     m_Target: {x: 0.0041745505, y: 0.93942034, z: -0.34270257, w: 0.011241321}
@@ -952,11 +988,15 @@ MonoBehaviour:
     speed: 2
     m_Value: 107.71908
 >>>>>>> remotes/origin/DenKach
+=======
+    m_Value: 569.70197
+>>>>>>> remotes/origin/DichMS
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Speed: 1
@@ -969,6 +1009,10 @@ MonoBehaviour:
     m_Speed: 0.94053
     m_SpeedNormalized: 0.47
 >>>>>>> remotes/origin/DenKach
+=======
+    m_Speed: 1.0005
+    m_SpeedNormalized: 0.5
+>>>>>>> remotes/origin/DichMS
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -981,6 +1025,7 @@ MonoBehaviour:
     m_OcclusionCulling: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: -0.41341338, y: -0.42001075, z: 0.22364524, w: -0.77635396}
 =======
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
@@ -988,12 +1033,16 @@ MonoBehaviour:
 =======
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
 >>>>>>> remotes/origin/DenKach
+=======
+  m_LastSceneViewRotation: {x: 0.04595133, y: 0.0984413, z: 0.0045652767, w: -0.99411553}
+>>>>>>> remotes/origin/DichMS
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &9
@@ -1003,6 +1052,170 @@ MonoBehaviour:
 =======
 --- !u!114 &9
 >>>>>>> remotes/origin/DenKach
+=======
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1172.8
+    height: 730.8
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 15515
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1172.8
+    height: 432.8
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 15516
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 290.4
+    height: 432.8
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 6}
+  m_Panes:
+  - {fileID: 6}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 289.4
+    height: 411.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 36fbffff
+      m_LastClickedID: -1226
+      m_ExpandedIDs: 642efffff06effff4ea2ffff68beffff96bfffffa2bfffffaec3ffffbac3ffffe4e3ffff42f8ffff46f8ffff38fbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 290.4
+    y: 0
+    width: 882.4
+    height: 432.8
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &8
+>>>>>>> remotes/origin/DichMS
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1020,6 +1233,7 @@ MonoBehaviour:
     m_Text: Game
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> remotes/origin/DenKach
     m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
@@ -1032,14 +1246,17 @@ MonoBehaviour:
     width: 1532
     height: 790
 =======
+=======
+>>>>>>> remotes/origin/DichMS
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 290.4
     y: 73.6
-    width: 879.6
+    width: 880.4
     height: 411.8
+<<<<<<< HEAD
 >>>>>>> remotes/origin/DichMS
 =======
     x: 363
@@ -1047,6 +1264,8 @@ MonoBehaviour:
     width: 1101
     height: 544
 >>>>>>> remotes/origin/DenKach
+=======
+>>>>>>> remotes/origin/DichMS
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1057,6 +1276,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_TargetSize: {x: 1532, y: 769}
@@ -1075,6 +1295,12 @@ MonoBehaviour:
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
 >>>>>>> remotes/origin/DenKach
+=======
+  m_TargetSize: {x: 880.4, y: 390.8}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+>>>>>>> remotes/origin/DichMS
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -1086,6 +1312,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -766
@@ -1104,6 +1331,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -261.5
     m_VBaseRangeMax: 261.5
 >>>>>>> remotes/origin/DenKach
+=======
+    m_HBaseRangeMin: -352.16
+    m_HBaseRangeMax: 352.16
+    m_VBaseRangeMin: -156.31999
+    m_VBaseRangeMax: 156.31999
+>>>>>>> remotes/origin/DichMS
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1113,10 +1346,14 @@ MonoBehaviour:
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_EnableMouseInput: 1
 =======
     m_EnableMouseInput: 0
 >>>>>>> remotes/origin/DenKach
+=======
+    m_EnableMouseInput: 0
+>>>>>>> remotes/origin/DichMS
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1125,6 +1362,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       width: 1532
@@ -1143,12 +1381,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 550.5, y: 261.5}
 >>>>>>> remotes/origin/DenKach
+=======
+      width: 880.4
+      height: 390.8
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 440.2, y: 195.4}
+>>>>>>> remotes/origin/DichMS
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -766
@@ -1160,11 +1405,15 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 1532, y: 790}
 =======
       x: -439.8
+=======
+      x: -440.2
+>>>>>>> remotes/origin/DichMS
       y: -195.4
-      width: 879.6
+      width: 880.4
       height: 390.8
     m_MinimalGUI: 1
   m_defaultScale: 1
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1099.5, y: 514.75}
 >>>>>>> remotes/origin/DichMS
 =======
@@ -1176,11 +1425,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1101, y: 544}
 >>>>>>> remotes/origin/DenKach
+=======
+  m_LastWindowPixelSize: {x: 1100.5, y: 514.75}
+>>>>>>> remotes/origin/DichMS
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &10
@@ -1190,6 +1443,107 @@ MonoBehaviour:
 =======
 --- !u!114 &10
 >>>>>>> remotes/origin/DenKach
+=======
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 290.4
+    y: 73.6
+    width: 880.4
+    height: 411.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 1107496155786952906, guid: 02763265a38083641963cec5a27a3228, type: 2}
+    - {fileID: 1107703593470842094, guid: a7974da0e4f6a1d44adb77dfbf3b69de, type: 2}
+    - {fileID: 1107669331274072800, guid: 40a204beb8c1bbc4e88fb9bb2340a1e3, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.6323232
+      e01: 0
+      e02: 0
+      e03: 8.676788
+      e10: 0
+      e11: 0.6323232
+      e12: 0
+      e13: 82.066666
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.65894735
+      e01: 0
+      e02: 0
+      e03: -17.947357
+      e10: 0
+      e11: 0.65894735
+      e12: 0
+      e13: 119.84631
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.65894735
+      e01: 0
+      e02: 0
+      e03: -17.947357
+      e10: 0
+      e11: 0.65894735
+      e12: 0
+      e13: 123.799995
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: a7974da0e4f6a1d44adb77dfbf3b69de, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1107703593470842094, guid: a7974da0e4f6a1d44adb77dfbf3b69de, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &10
+>>>>>>> remotes/origin/DichMS
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1211,6 +1565,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 818
     width: 1395
     height: 113
@@ -1223,16 +1578,20 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 =======
+=======
+>>>>>>> remotes/origin/DichMS
     y: 432.8
-    width: 1172
+    width: 1172.8
     height: 298
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 10}
+  m_ActualView: {fileID: 11}
   m_Panes:
-  - {fileID: 10}
   - {fileID: 11}
+  - {fileID: 12}
+  - {fileID: 13}
   m_Selected: 0
+<<<<<<< HEAD
   m_LastSelected: 1
 --- !u!114 &10
 =======
@@ -1249,6 +1608,10 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &11
 >>>>>>> remotes/origin/DenKach
+=======
+  m_LastSelected: 2
+--- !u!114 &11
+>>>>>>> remotes/origin/DichMS
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1275,7 +1638,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
     y: 506.4
-    width: 1171
+    width: 1171.8
     height: 277
 =======
     y: 638
@@ -1300,17 +1663,25 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
 =======
     - Assets/Content/Scripts
 >>>>>>> remotes/origin/DenKach
+=======
+    - Assets/Content
+>>>>>>> remotes/origin/DichMS
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets
+=======
+  - Assets/Content
+>>>>>>> remotes/origin/DichMS
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Game\Hide-Seek-Alarm-Clocks
 =======
@@ -1321,6 +1692,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
     m_SelectedIDs: f05e0000
@@ -1331,6 +1703,12 @@ MonoBehaviour:
     m_LastClickedID: 22942
     m_ExpandedIDs: 000000008c5900008e59000000ca9a3b
 >>>>>>> remotes/origin/DenKach
+=======
+    scrollPos: {x: 0, y: 127}
+    m_SelectedIDs: 885c0000
+    m_LastClickedID: 23688
+    m_ExpandedIDs: 00000000865c0000885c00002e5f00001a6200002062000000ca9a3bffffff7f
+>>>>>>> remotes/origin/DichMS
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1363,10 +1741,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000f05e0000f25e0000f45e0000
 =======
     m_ExpandedIDs: 000000008c5900008e590000
 >>>>>>> remotes/origin/DenKach
+=======
+    m_ExpandedIDs: 00000000865c0000885c00001a6200002062000000ca9a3bffffff7f
+>>>>>>> remotes/origin/DichMS
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1391,6 +1773,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
@@ -1398,6 +1781,11 @@ MonoBehaviour:
 =======
     m_HadKeyboardFocusLastEvent: 1
 >>>>>>> remotes/origin/DenKach
+=======
+    m_SelectedInstanceIDs: 36fbffff
+    m_LastClickedInstanceID: -1226
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> remotes/origin/DichMS
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1415,10 +1803,14 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 9}
 =======
       m_ClientGUIView: {fileID: 10}
 >>>>>>> remotes/origin/DenKach
+=======
+      m_ClientGUIView: {fileID: 10}
+>>>>>>> remotes/origin/DichMS
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1431,8 +1823,12 @@ MonoBehaviour:
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> remotes/origin/DichMS
 --- !u!114 &11
+=======
+--- !u!114 &12
+>>>>>>> remotes/origin/DichMS
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1448,32 +1844,56 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-<<<<<<< HEAD
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
-=======
     m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 506.4
-    width: 1171
+    width: 1171.8
     height: 277
->>>>>>> remotes/origin/DichMS
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+<<<<<<< HEAD
 =======
 >>>>>>> remotes/origin/DenKach
 --- !u!114 &12
+=======
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 506.4
+    width: 1171.8
+    height: 277
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 23406
+--- !u!114 &14
+>>>>>>> remotes/origin/DichMS
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1485,6 +1905,7 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: 
 =======
   m_Name: InspectorWindow
@@ -1492,21 +1913,24 @@ MonoBehaviour:
 =======
   m_Name: 
 >>>>>>> remotes/origin/DenKach
+=======
+  m_Name: 
+>>>>>>> remotes/origin/DichMS
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1395
-    y: 0
-    width: 509
-    height: 931
 =======
-    x: 1172
+    x: 1172.8
+>>>>>>> remotes/origin/DichMS
     y: 0
-    width: 364
+    width: 363.19995
     height: 730.8
+<<<<<<< HEAD
 >>>>>>> remotes/origin/DichMS
 =======
     x: 1466
@@ -1514,14 +1938,16 @@ MonoBehaviour:
     width: 454
     height: 947
 >>>>>>> remotes/origin/DenKach
+=======
+>>>>>>> remotes/origin/DichMS
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &13
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1539,6 +1965,7 @@ MonoBehaviour:
     m_Text: Inspector
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> remotes/origin/DenKach
     m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
@@ -1551,14 +1978,17 @@ MonoBehaviour:
     width: 508
     height: 910
 =======
+=======
+>>>>>>> remotes/origin/DichMS
     m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1172
+    x: 1172.8
     y: 73.6
-    width: 363
+    width: 362.19995
     height: 709.8
+<<<<<<< HEAD
 >>>>>>> remotes/origin/DichMS
 =======
     x: 1466
@@ -1566,6 +1996,8 @@ MonoBehaviour:
     width: 453
     height: 926
 >>>>>>> remotes/origin/DenKach
+=======
+>>>>>>> remotes/origin/DichMS
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

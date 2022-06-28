@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-16.42256736755371,"y":31.601348876953126,"z":-174.93606567382813},"rotation":{"x":-0.12476953119039536,"y":-0.6337539553642273,"z":0.10454419255256653,"w":-0.7562345266342163},"size":12.567636489868164,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":3.3572182655334474,"y":1.79580557346344,"z":-20.115612030029298},"rotation":{"x":-0.08565885573625565,"y":0.6626224517822266,"z":-0.0766562893986702,"w":-0.7401354908943176},"size":1.248610019683838,"orthographic":false}
+>>>>>>> remotes/origin/DichMS

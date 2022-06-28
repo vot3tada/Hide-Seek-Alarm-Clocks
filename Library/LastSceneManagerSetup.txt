@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Test Room.unity
+=======
+- path: Assets/PlayerLocation.unity
+>>>>>>> remotes/origin/DichMS
   isLoaded: 1
   isActive: 1
   isSubScene: 0
