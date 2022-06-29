@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exits: []
+  plugs: []
   center: {fileID: 8492360052775337938}
 --- !u!1 &4727984260461615279
 GameObject:

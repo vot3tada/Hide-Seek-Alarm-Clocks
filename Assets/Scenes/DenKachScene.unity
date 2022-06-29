@@ -297,8 +297,8 @@ Light:
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NormalBias: 1
+    m_NearPlane: 0.5
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -461,6 +461,9 @@ MonoBehaviour:
   - {fileID: 787603991111280132, guid: 20e900441fe075941b29d933a087b2ba, type: 3}
   coridorWallPlugs:
   - {fileID: 787603991111280132, guid: bccb5e59819a0e543a0040d3f2c9740e, type: 3}
+  - {fileID: 787603991111280132, guid: bccb5e59819a0e543a0040d3f2c9740e, type: 3}
+  - {fileID: 787603991111280132, guid: bccb5e59819a0e543a0040d3f2c9740e, type: 3}
+  - {fileID: 787603991111280132, guid: a1c1bfd4a8d1a4640944a4fd91ca6030, type: 3}
   coridorWindowPlugs:
   - {fileID: 787603991111280132, guid: d62e968ef3fda6848a89c0d1fdccc0e8, type: 3}
   coridorDoorPlug: {fileID: 787603991111280132, guid: 3b3b3aded8cf4cf4f805e4c0cad2b339, type: 3}

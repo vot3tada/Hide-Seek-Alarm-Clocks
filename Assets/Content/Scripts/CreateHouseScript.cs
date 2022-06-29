@@ -28,7 +28,9 @@ public class CreateHouseScript : MonoBehaviour
 
     void SpawnBedroom()
     {
-        foreach(GameObject room in currentRooms)
+        exitsList.Clear();
+        roomPlugList.Clear();
+        foreach (GameObject room in currentRooms)
             Destroy(room);
         GameObject currentRoom = Instantiate(bedRoom);
         currentRoom.transform.position = new Vector3(15 * roomSize, 0, 15 * roomSize);
@@ -38,8 +40,7 @@ public class CreateHouseScript : MonoBehaviour
                   (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % 32] = 1;
 
         exitsList.AddRange(currentRoom.GetComponent<RoomScript>().Exits);
-        currentRooms.Add(currentRoom);
-        Instantiate(person, new Vector3(currentRoom.GetComponent<RoomScript>().Center.position.x - 3f, 2f, currentRoom.GetComponent<RoomScript>().Center.position.z), new Quaternion(0, 0, 0, 0));
+        currentRooms.Add(currentRoom); 
     }
 
 
@@ -86,15 +87,17 @@ public class CreateHouseScript : MonoBehaviour
                         roomPlugList.Add((exit.Item1, exit.Item2, randomPlugNumber));
                     Instantiate(coridorDoorPlug, 
                         exitsList[randomExitNumber].Item1.transform.position,
-                        Quaternion.Euler(new Vector3(0.0f, exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y - exitsList[randomExitNumber].Item2, 0.0f)));
+                        Quaternion.Euler(new Vector3(0.0f, exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y - exitsList[randomExitNumber].Item2, 0.0f)),
+                        currentRoom.gameObject.transform);
                 }
             }
             else
             {
+                //exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y 
                 Destroy(currentRoom);
-                currentRoom = Instantiate(coridorWallPlugs[Random.Range(0, roomWallPlugs.Length)]);
+                currentRoom = Instantiate(coridorWallPlugs[Random.Range(0, coridorWallPlugs.Length)], exitsList[randomExitNumber].Item1.transform.parent.transform);
                 currentRoom.transform.position = exitsList[randomExitNumber].Item1.transform.position;
-                currentRoom.transform.Rotate(0.0f, exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y - exitsList[randomExitNumber].Item2, 0.0f, Space.Self);
+                currentRoom.transform.Rotate(0.0f, - exitsList[randomExitNumber].Item2, 0.0f, Space.Self);
             }
 
 
@@ -168,7 +171,7 @@ public class CreateHouseScript : MonoBehaviour
 
         SpawnRawRooms();
 
-
+        Instantiate(person, new Vector3(15 * roomSize + 6f, 2.5f, 15*roomSize), new Quaternion(0, 0, 0, 0));
 
     }
 
