@@ -19,7 +19,6 @@ public class Interaction : MonoBehaviour
         if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "Door" && Input.GetAxis("Interaction") == 1)
         {
             hit.transform.gameObject.GetComponentInParent<Open>().InteractionWithDoor();
-
         }
     }
 
