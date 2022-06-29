@@ -10,6 +10,7 @@ TagManager:
   - Door
   - Clock
   - Spawner
+  - Bag
   layers:
   - Default
   - TransparentFX

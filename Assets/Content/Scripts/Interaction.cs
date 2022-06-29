@@ -15,8 +15,15 @@ public class Interaction : MonoBehaviour
     {
         Ray();
         if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "Clock" && Input.GetAxis("Interaction") == 1)
+        {
             hit.transform.gameObject.GetComponent<AudioSource>().Play();
+            hit.transform.gameObject.transform.parent = gameObject.transform;
+            hit.transform.gameObject.transform.position = GameObject.FindGameObjectWithTag("Bag").transform.position;
+            hit.transform.gameObject.GetComponent<CatEscape>().enabled = true;
             //Destroy(hit.transform.gameObject);
+        }
+
+
         if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "Door" && Input.GetAxis("Interaction") == 1)
         {
             hit.transform.gameObject.GetComponentInParent<Open>().InteractionWithDoor();
