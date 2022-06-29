@@ -464,6 +464,12 @@ MonoBehaviour:
   - {fileID: 787603991111280132, guid: bccb5e59819a0e543a0040d3f2c9740e, type: 3}
   - {fileID: 787603991111280132, guid: bccb5e59819a0e543a0040d3f2c9740e, type: 3}
   - {fileID: 787603991111280132, guid: a1c1bfd4a8d1a4640944a4fd91ca6030, type: 3}
+  - {fileID: 787603991111280132, guid: 781d4ae24bd67f645b1b3f4e5ad01463, type: 3}
+  - {fileID: 787603991111280132, guid: 6df6c2d377023f34f88b91fcd6e1a44c, type: 3}
+  - {fileID: 787603991111280132, guid: dc69ccc53e260e34a9eea75fec91bd33, type: 3}
+  - {fileID: 787603991111280132, guid: 28fb7e6ef631a0843aead88f8c662c4b, type: 3}
+  - {fileID: 787603991111280132, guid: 40ec6f119def23d47b678d8282ac4abd, type: 3}
+  - {fileID: 787603991111280132, guid: bccb5e59819a0e543a0040d3f2c9740e, type: 3}
   coridorWindowPlugs:
   - {fileID: 787603991111280132, guid: d62e968ef3fda6848a89c0d1fdccc0e8, type: 3}
   farEnvironment:
@@ -485,7 +491,7 @@ Transform:
   m_GameObject: {fileID: 1496449864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
