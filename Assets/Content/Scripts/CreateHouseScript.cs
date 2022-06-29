@@ -22,7 +22,11 @@ public class CreateHouseScript : MonoBehaviour
 
     [SerializeField] private GameObject[] coridorWallPlugs;
     [SerializeField] private GameObject[] coridorWindowPlugs;
+    [SerializeField] private GameObject[] farEnvironment;
+
     [SerializeField] private GameObject coridorDoorPlug;
+    [SerializeField] private GameObject outsideWallPlug;
+    [SerializeField] private GameObject outsideWindowPlug;
 
     [SerializeField] private GameObject person;
 
@@ -70,6 +74,7 @@ public class CreateHouseScript : MonoBehaviour
 
             currentRoom.transform.position = exitsList[randomExitNumber].Item1.transform.position;
             currentRoom.transform.Rotate(0.0f, exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y - exitsList[randomExitNumber].Item2, 0.0f, Space.Self);
+            
 
             if (roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % 32,
                           (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % 32,
@@ -138,6 +143,7 @@ public class CreateHouseScript : MonoBehaviour
             {
                 Destroy(currentRoom);
                 currentRoom = Instantiate(roomWindowPlugs[exit.Item3]);
+                
             }
             else
             {
@@ -153,7 +159,11 @@ public class CreateHouseScript : MonoBehaviour
         {
             for (int j = 0; j < roomField.GetLength(2); j++)
             {
-                if (roomField[i, 0, j] == 0)
+                if((i < 4 || j < 4 || i > 27 || j > 27) && roomField[i, 0, j] == 0)
+                {
+                    Instantiate(farEnvironment[Random.Range(0, farEnvironment.Length)], new Vector3(i * roomSize, 0, j * roomSize),Quaternion.identity);
+                }
+                else if (roomField[i, 0, j] == 0)
                 {
                     currentRoom = Instantiate(environment[Random.Range(0, environment.Length)]);
 
@@ -172,7 +182,6 @@ public class CreateHouseScript : MonoBehaviour
         SpawnRawRooms();
 
         Instantiate(person, new Vector3(15 * roomSize + 6f, 2.5f, 15*roomSize), new Quaternion(0, 0, 0, 0));
-
     }
 
 
