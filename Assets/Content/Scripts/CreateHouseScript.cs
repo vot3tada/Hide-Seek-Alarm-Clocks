@@ -23,6 +23,8 @@ public class CreateHouseScript : MonoBehaviour
     [SerializeField] private GameObject[] coridorWallPlugs;
     [SerializeField] private GameObject[] coridorWindowPlugs;
     [SerializeField] private GameObject coridorDoorPlug;
+    [SerializeField] private GameObject outsideWallPlug;
+    [SerializeField] private GameObject outsideWindowPlug;
 
     [SerializeField] private GameObject person;
 
@@ -70,6 +72,7 @@ public class CreateHouseScript : MonoBehaviour
 
             currentRoom.transform.position = exitsList[randomExitNumber].Item1.transform.position;
             currentRoom.transform.Rotate(0.0f, exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y - exitsList[randomExitNumber].Item2, 0.0f, Space.Self);
+            
 
             if (roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % 32,
                           (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % 32,
@@ -138,6 +141,7 @@ public class CreateHouseScript : MonoBehaviour
             {
                 Destroy(currentRoom);
                 currentRoom = Instantiate(roomWindowPlugs[exit.Item3]);
+                
             }
             else
             {
@@ -172,7 +176,6 @@ public class CreateHouseScript : MonoBehaviour
         SpawnRawRooms();
 
         Instantiate(person, new Vector3(15 * roomSize + 6f, 2.5f, 15*roomSize), new Quaternion(0, 0, 0, 0));
-
     }
 
 

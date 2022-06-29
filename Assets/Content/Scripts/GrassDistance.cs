@@ -6,6 +6,7 @@ public class GrassDistance : MonoBehaviour
 {
     [SerializeField] Transform player;
     [SerializeField] ParticleSystem render;
+    [SerializeField, Range(20,100)] float renderDistance;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class GrassDistance : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(player.position, transform.position) >= 100)
+        if (Vector3.Distance(player.position, transform.position) >= renderDistance)
         {
             render.Stop(render, ParticleSystemStopBehavior.StopEmittingAndClear);
         }
