@@ -15,7 +15,8 @@ public class Interaction : MonoBehaviour
     {
         Ray();
         if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "Clock" && Input.GetAxis("Interaction") == 1)
-            Destroy(hit.transform.gameObject);
+            hit.transform.gameObject.GetComponent<AudioSource>().Play();
+            //Destroy(hit.transform.gameObject);
         if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "Door" && Input.GetAxis("Interaction") == 1)
         {
             hit.transform.gameObject.GetComponentInParent<Open>().InteractionWithDoor();
