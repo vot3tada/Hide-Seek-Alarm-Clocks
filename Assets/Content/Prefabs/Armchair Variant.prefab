@@ -17,6 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< HEAD
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
@@ -26,18 +27,29 @@ PrefabInstance:
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+=======
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+>>>>>>> remotes/origin/DichMS
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.91293
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 80.61102
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4251527843642108, guid: 58aa8caea89f7b342bdda904ad723592, type: 3}
       propertyPath: m_LocalRotation.w
