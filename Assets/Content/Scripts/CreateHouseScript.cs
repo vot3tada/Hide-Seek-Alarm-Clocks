@@ -22,6 +22,8 @@ public class CreateHouseScript : MonoBehaviour
 
     [SerializeField] private GameObject[] coridorWallPlugs;
     [SerializeField] private GameObject[] coridorWindowPlugs;
+    [SerializeField] private GameObject[] farEnvironment;
+
     [SerializeField] private GameObject coridorDoorPlug;
     [SerializeField] private GameObject outsideWallPlug;
     [SerializeField] private GameObject outsideWindowPlug;
@@ -157,7 +159,11 @@ public class CreateHouseScript : MonoBehaviour
         {
             for (int j = 0; j < roomField.GetLength(2); j++)
             {
-                if (roomField[i, 0, j] == 0)
+                if((i < 4 || j < 4 || i > 27 || j > 27) && roomField[i, 0, j] == 0)
+                {
+                    Instantiate(farEnvironment[Random.Range(0, farEnvironment.Length)], new Vector3(i * roomSize, 0, j * roomSize),Quaternion.identity);
+                }
+                else if (roomField[i, 0, j] == 0)
                 {
                     currentRoom = Instantiate(environment[Random.Range(0, environment.Length)]);
 

@@ -466,6 +466,12 @@ MonoBehaviour:
   - {fileID: 787603991111280132, guid: a1c1bfd4a8d1a4640944a4fd91ca6030, type: 3}
   coridorWindowPlugs:
   - {fileID: 787603991111280132, guid: d62e968ef3fda6848a89c0d1fdccc0e8, type: 3}
+  farEnvironment:
+  - {fileID: 787603991111280132, guid: 3f096f41e828f19458a27426b5241516, type: 3}
+  - {fileID: 787603991111280132, guid: df164b43f293589418420031175631dd, type: 3}
+  - {fileID: 787603991111280132, guid: 9777dbead63fb1244a21609f4b469840, type: 3}
+  - {fileID: 787603991111280132, guid: a19517ca594a51e46a0d1c4ed4415503, type: 3}
+  - {fileID: 787603991111280132, guid: 57a4293c9cb998b47a8ebcd134299e03, type: 3}
   coridorDoorPlug: {fileID: 787603991111280132, guid: 3b3b3aded8cf4cf4f805e4c0cad2b339, type: 3}
   outsideWallPlug: {fileID: 787603991111280132, guid: fedcb27c0136a554483e0cc50d7e2033, type: 3}
   outsideWindowPlug: {fileID: 787603991111280132, guid: 7587887b1bc9db5478b1856295e62321, type: 3}
