@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Room
   - Plug
+  - HorizontalTriggerExit
+  - Door
+  - Clock
+  - Spawner
   layers:
   - Default
   - TransparentFX
