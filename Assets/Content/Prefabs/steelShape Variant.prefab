@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_Name
-      value: steelShape
+      value: steelShape Variant
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_RootOrder
@@ -17,27 +17,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -65.392944
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.84
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.98
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_LocalRotation.w

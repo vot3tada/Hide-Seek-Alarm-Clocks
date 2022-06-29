@@ -19,19 +19,13 @@ public class SpawnItems : MonoBehaviour
                 break;
             }
             var rand = (int)Random.Range(0, spawns.Count);
-            GameObject gmNew = Instantiate(cats[i], spawns[rand].transform.position, Quaternion.identity);
-            gmNew.transform.parent = spawns[rand].transform;
+            Instantiate(cats[i], spawns[rand].transform);
             spawns.RemoveAt(rand);
         }
         for (int i = 0; i < spawns.Count; i++)
         {
-            if (Random.value > 0.66)
-            {
-                GameObject gmNew = Instantiate(items[Random.Range(0,items.Length)], spawns[i].transform.position, Quaternion.identity);
-                gmNew.transform.parent = spawns[i].transform;
-                spawns.RemoveAt(i);
-                i--;
-            }
+            if (Random.value > 0)
+                Instantiate(items[Random.Range(0,items.Length)], spawns[i].transform);
         }
     }
 
