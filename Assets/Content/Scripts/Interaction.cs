@@ -10,6 +10,7 @@ public class Interaction : MonoBehaviour
     private RaycastHit hit;
 
     [SerializeField] private float maxDistance;
+    [SerializeField] private GameObject bag;
 
     private void FixedUpdate()
     {
@@ -17,31 +18,31 @@ public class Interaction : MonoBehaviour
         if (Input.GetAxis("Interaction") == 1)
         {
             Physics.Raycast(hell, out hit, maxDistance);
-            //Debug.Log(hit.transform.gameObject);
             if (hit.transform == null)
-            {
                 return;
-            }
             switch (hit.transform.gameObject.tag)
             {
                 case "Clock":
                     {
-                        hit.transform.gameObject.GetComponent<AudioSource>().Play();
-                        hit.transform.gameObject.transform.parent = GameObject.FindGameObjectWithTag("Bag").transform;
-                        hit.transform.gameObject.transform.position = GameObject.FindGameObjectWithTag("Bag").transform.position;
+                        GameObject cat = hit.transform.gameObject;
+                        cat.GetComponent<AudioSource>().Play();
+                        cat.transform.parent = GameObject.FindGameObjectWithTag("Bag").transform;
+                        cat.transform.localPosition = new Vector3(0f + 0.01f*bag.transform.childCount, 0f + 0.04f * bag.transform.childCount, 0f + -0.03f * bag.transform.childCount);
+                        cat.transform.localRotation = Quaternion.Euler(0, -45, 0);
                         hit.transform.gameObject.GetComponent<CatEscape>().enabled = true;
                         break;
                     }
                 case "PlaceForClocks":
                     {
-                        var bag = GameObject.FindGameObjectWithTag("Bag");
-                        int count = bag.transform.childCount;
-                        for (int i = 0; i < count; i++)
+                        for (int i = 1; i < bag.transform.childCount; i++)
                         {
-                            var cat = GameObject.FindGameObjectWithTag("Bag").transform.GetChild(0);
-                            cat.gameObject.GetComponent<CatEscape>().enabled = false;
-                            cat.position = hit.transform.position;
-                            cat.parent = hit.transform.gameObject.transform;
+                            //Нулевое - система частиц
+                            GameObject cat = bag.transform.GetChild(1).gameObject;
+                            cat.GetComponent<CatEscape>().enabled = false;
+                            cat.transform.parent = hit.transform;
+                            cat.transform.localPosition = new Vector3(2.5f - 1.2f * hit.transform.childCount, 12f, -2.7f + 0.75f * hit.transform.childCount);
+                            cat.transform.localScale = new Vector3(0.3f, 0.5f, 1f);
+                            cat.transform.localRotation = Quaternion.Euler(0, 180, 0);
                             cat.tag = "Untagged";
                         }
                         break;
@@ -52,7 +53,6 @@ public class Interaction : MonoBehaviour
                         break;
                     }
             }
-
         }
     }
 

@@ -43,6 +43,8 @@ public class CatEscape : MonoBehaviour
                     EscapePlace = GameObject.FindGameObjectsWithTag("Spawner").LastOrDefault(spawn => spawn.transform.childCount == 0).transform;
                 }
                 gameObject.transform.position = EscapePlace.transform.position;
+                //gameObject.transform.localScale = Vector3.one;
+                gameObject.transform.localRotation = Quaternion.Euler(-90, 0, 0);
                 gameObject.transform.parent = EscapePlace.transform;
                 gameObject.GetComponent<CatEscape>().enabled = false;
             }
