@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3152365359227704838}
   - component: {fileID: 3141827995911279222}
   - component: {fileID: 3111237332040831894}
-  - component: {fileID: 3141827995911279223}
   m_Layer: 0
   m_Name: kitchen_stand_door (1)
   m_TagString: Door
@@ -99,19 +98,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c35f6537c600cd64c922280c6cb3c3da, type: 3}
---- !u!65 &3141827995911279223
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3155948241937644514}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 6, z: 3}
-  m_Center: {x: -0.00000047683716, y: 3, z: -0.0000019073486}
 --- !u!1 &3156081397241317634
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +176,6 @@ GameObject:
   - component: {fileID: 3148569572801067964}
   - component: {fileID: 3141975439825353680}
   - component: {fileID: 3111894379752571160}
-  - component: {fileID: 3141975439825353681}
   m_Layer: 0
   m_Name: kitchen_stand_door
   m_TagString: Door
@@ -277,19 +262,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c35f6537c600cd64c922280c6cb3c3da, type: 3}
---- !u!65 &3141975439825353681
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3156692961197786444}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 6, z: 3}
-  m_Center: {x: 0, y: 3, z: 0}
 --- !u!1 &3156851547965084316
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +340,6 @@ GameObject:
   - component: {fileID: 3152277992322592008}
   - component: {fileID: 3141845985767686952}
   - component: {fileID: 3111752276514713192}
-  - component: {fileID: 3141845985767686953}
   m_Layer: 0
   m_Name: kitchen_stand_2
   m_TagString: Untagged
@@ -459,19 +430,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 812637a918625424699a2312fcc01fab, type: 3}
---- !u!65 &3141845985767686953
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8747953995017462979}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 11, y: 11, z: 9}
-  m_Center: {x: 0, y: 5.5, z: 0}
 --- !u!1001 &5911626996162827878
 PrefabInstance:
   m_ObjectHideFlags: 0
