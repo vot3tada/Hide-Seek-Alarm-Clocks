@@ -17,7 +17,11 @@ public class Interaction : MonoBehaviour
         if (Input.GetAxis("Interaction") == 1)
         {
             Physics.Raycast(hell, out hit, maxDistance);
-            Debug.Log(hit.transform.gameObject);
+            //Debug.Log(hit.transform.gameObject);
+            if (hit.transform == null)
+            {
+                return;
+            }
             switch (hit.transform.gameObject.tag)
             {
                 case "Clock":
