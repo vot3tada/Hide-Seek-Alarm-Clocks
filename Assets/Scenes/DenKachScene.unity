@@ -446,8 +446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76c8cc5597626a449abbcd92994f23a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldSize: 18
-  roomsCount: 8
+  fieldSize: 16
+  roomsCount: 4
   roomSize: 16
   bedRoom: {fileID: 787603991111280132, guid: 331b5e5cd90d27d40b6bc8229755bd61, type: 3}
   corridors:

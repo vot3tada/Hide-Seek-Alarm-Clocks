@@ -10,6 +10,8 @@ public class CatEscape : MonoBehaviour
     [SerializeField] Material material;
     [SerializeField] int EveryFrame;
     [SerializeField] double PercentValue;
+    [SerializeField] AnimationCurve timeFactor;
+    private float dontescapecount = 0;
     private void Awake()
     {
         particle.GetComponent<Renderer>().material = material;
@@ -24,9 +26,9 @@ public class CatEscape : MonoBehaviour
     {
         if ((int)Time.time % EveryFrame == 0)
         {
-            if (Random.value < PercentValue)
+            if (Random.value * timeFactor.Evaluate(dontescapecount) < PercentValue)
             {
-                var partic = GameObject.FindGameObjectWithTag("Player").transform.Find("EscapingCat").GetComponent<ParticleSystem>();
+                var partic = GameObject.FindGameObjectWithTag("Bag").transform.Find("EscapingCat").GetComponent<ParticleSystem>();
                 partic.GetComponent<Renderer>().material = material;
                 var main = partic.main;
                 main.maxParticles = 1;
@@ -43,9 +45,14 @@ public class CatEscape : MonoBehaviour
                     EscapePlace = GameObject.FindGameObjectsWithTag("Spawner").LastOrDefault(spawn => spawn.transform.childCount == 0).transform;
                 }
                 gameObject.transform.position = EscapePlace.transform.position;
+                gameObject.transform.localScale = Vector3.one * 0.1f;
+                gameObject.transform.localRotation = Quaternion.Euler(-90, 0, 0);
                 gameObject.transform.parent = EscapePlace.transform;
                 gameObject.GetComponent<CatEscape>().enabled = false;
             }
+            else
+                dontescapecount += 1f;
+
         }
     }
 }

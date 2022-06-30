@@ -358,6 +358,30 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 56514a1be2e18cd4db30ea0905a34cbb, type: 2}
   EveryFrame: 30
   PercentValue: 0.05
+  timeFactor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 20
+      inSlope: -0.49975
+      outSlope: -0.49975
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 40
+      value: 0.01
+      inSlope: -0.49975
+      outSlope: -0.49975
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3154288866222232816
 GameObject:
   m_ObjectHideFlags: 0
