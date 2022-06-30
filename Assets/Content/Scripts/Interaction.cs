@@ -14,34 +14,41 @@ public class Interaction : MonoBehaviour
     private void FixedUpdate()
     {
         Ray();
-        if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "Clock" && Input.GetAxis("Interaction") == 1)
+        if (Input.GetAxis("Interaction") == 1)
         {
-            hit.transform.gameObject.GetComponent<AudioSource>().Play();
-            hit.transform.gameObject.transform.parent = GameObject.FindGameObjectWithTag("Bag").transform;
-            hit.transform.gameObject.transform.position = GameObject.FindGameObjectWithTag("Bag").transform.position;
-            hit.transform.gameObject.GetComponent<CatEscape>().enabled = true;
-            //Destroy(hit.transform.gameObject);
-        }
-
-        if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "PlaceForClocks" && Input.GetAxis("Interaction") == 1)
-        {
-            var bag = GameObject.FindGameObjectWithTag("Bag");
-            int count = bag.transform.childCount;
-            for (int i = 0; i < count; i++)
+            Physics.Raycast(hell, out hit, maxDistance);
+            Debug.Log(hit.transform.gameObject);
+            switch (hit.transform.gameObject.tag)
             {
-                var cat = GameObject.FindGameObjectWithTag("Bag").transform.GetChild(0);
-                cat.gameObject.GetComponent<CatEscape>().enabled = false;
-                cat.position = hit.transform.position;
-                cat.parent = hit.transform.gameObject.transform;
-                cat.tag = "Untagged";
+                case "Clock":
+                    {
+                        hit.transform.gameObject.GetComponent<AudioSource>().Play();
+                        hit.transform.gameObject.transform.parent = GameObject.FindGameObjectWithTag("Bag").transform;
+                        hit.transform.gameObject.transform.position = GameObject.FindGameObjectWithTag("Bag").transform.position;
+                        hit.transform.gameObject.GetComponent<CatEscape>().enabled = true;
+                        break;
+                    }
+                case "PlaceForClocks":
+                    {
+                        var bag = GameObject.FindGameObjectWithTag("Bag");
+                        int count = bag.transform.childCount;
+                        for (int i = 0; i < count; i++)
+                        {
+                            var cat = GameObject.FindGameObjectWithTag("Bag").transform.GetChild(0);
+                            cat.gameObject.GetComponent<CatEscape>().enabled = false;
+                            cat.position = hit.transform.position;
+                            cat.parent = hit.transform.gameObject.transform;
+                            cat.tag = "Untagged";
+                        }
+                        break;
+                    }
+                case "Door":
+                    {
+                        hit.transform.gameObject.GetComponentInParent<Open>().InteractionWithDoor();
+                        break;
+                    }
             }
-            
-        }
 
-
-        if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "Door" && Input.GetAxis("Interaction") == 1)
-        {
-            hit.transform.gameObject.GetComponentInParent<Open>().InteractionWithDoor();
         }
     }
 
