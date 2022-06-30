@@ -12,20 +12,22 @@ public class SpawnItems : MonoBehaviour
     void Start()
     {
         spawns = GameObject.FindGameObjectsWithTag("Spawner").ToList();
-        for (int i = 0; i < cats.Length; i++)
+        //Debug.Log(cats.Length);
+        //Debug.Log(spawns.Count);
+        for (int i = 0; i < 5; i++)
         {
             if (spawns.Count == 0)
             {
                 break;
             }
             var rand = (int)Random.Range(0, spawns.Count);
-            Instantiate(cats[i], spawns[rand].transform);
+            Instantiate(cats[i % cats.Length], spawns[rand].transform);
             spawns.RemoveAt(rand);
         }
         for (int i = 0; i < spawns.Count; i++)
         {
-            if (Random.value > 0)
-                Instantiate(items[Random.Range(0,items.Length)], spawns[i].transform);
+            if (Random.value > 0.5)
+                Instantiate(items[Random.Range(0, items.Length)], spawns[i].transform);
         }
     }
 
