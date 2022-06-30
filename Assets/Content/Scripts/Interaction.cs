@@ -43,6 +43,9 @@ public class Interaction : MonoBehaviour
                             cat.position = hit.transform.position;
                             cat.parent = hit.transform.gameObject.transform;
                             cat.tag = "Untagged";
+                            var audio = cat.GetComponents<AudioSource>();
+                            audio[1].Stop();
+                            audio[2].Play();
                         }
                         break;
                     }
