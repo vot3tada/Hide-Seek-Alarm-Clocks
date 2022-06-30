@@ -9,9 +9,10 @@ public class CreateHouseScript : MonoBehaviour
     private List<(GameObject, float, int)> roomPlugList = new List<(GameObject, float, int)>();
 
     private List<GameObject> currentRooms = new List<GameObject>();
-    private int[,,] roomField = new int[32,1,32];
+    private int[,,] roomField;
 
-    [SerializeField] private int roomsCount;
+    [SerializeField, Range(16, 32)] private int fieldSize;
+    [SerializeField, Range(4, 14)] private int roomsCount;
     [SerializeField] private float roomSize;
     [SerializeField] private GameObject bedRoom;
     [SerializeField] private GameObject[] corridors;
@@ -37,11 +38,11 @@ public class CreateHouseScript : MonoBehaviour
         foreach (GameObject room in currentRooms)
             Destroy(room);
         GameObject currentRoom = Instantiate(bedRoom);
-        currentRoom.transform.position = new Vector3(15 * roomSize, 0, 15 * roomSize);
-        roomField = new int[32, 3, 32];
-        roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % 32,
-                  (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % 32,
-                  (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % 32] = 1;
+        currentRoom.transform.position = new Vector3(((fieldSize/2)-1) * roomSize, 0, ((fieldSize / 2) - 1) * roomSize);
+        roomField = new int[fieldSize, 1, fieldSize];
+        roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % fieldSize,
+                  (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % fieldSize,
+                  (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % fieldSize] = 1;
 
         exitsList.AddRange(currentRoom.GetComponent<RoomScript>().Exits);
         currentRooms.Add(currentRoom); 
@@ -76,13 +77,13 @@ public class CreateHouseScript : MonoBehaviour
             currentRoom.transform.Rotate(0.0f, exitsList[randomExitNumber].Item1.transform.parent.rotation.eulerAngles.y - exitsList[randomExitNumber].Item2, 0.0f, Space.Self);
             
 
-            if (roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % 32,
-                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % 32,
-                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % 32] == 0)
+            if (roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % fieldSize,
+                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % fieldSize,
+                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % fieldSize] == 0)
             {
-                roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % 32,
-                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % 32,
-                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % 32] = 1;
+                roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % fieldSize,
+                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % fieldSize,
+                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % fieldSize] = 1;
 
                 exitsList.AddRange(currentRoom.GetComponent<RoomScript>().Exits);
                 currentRooms.Add(currentRoom);
@@ -115,17 +116,17 @@ public class CreateHouseScript : MonoBehaviour
             currentRoom = Instantiate(corridors[0]);
             currentRoom.transform.position = exit.Item1.transform.position;
             currentRoom.transform.Rotate(0.0f, exit.Item1.transform.parent.rotation.eulerAngles.y - exit.Item2, 0.0f, Space.Self);
-            if (roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % 32,
-                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % 32,
-                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % 32] == 0)
+            if (roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % fieldSize,
+                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % fieldSize,
+                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % fieldSize] == 0)
             {
                 Destroy(currentRoom);
-                currentRoom = Instantiate(coridorWindowPlugs[Random.Range(0,roomWindowPlugs.Length)]);
+                currentRoom = Instantiate(coridorWindowPlugs[Random.Range(0, coridorWindowPlugs.Length)]);
             }
             else
             {
                 Destroy(currentRoom);
-                currentRoom = Instantiate(coridorWallPlugs[Random.Range(0, roomWallPlugs.Length)]);
+                currentRoom = Instantiate(coridorWallPlugs[Random.Range(0, coridorWallPlugs.Length)]);
             }
             currentRoom.transform.position = exit.Item1.transform.position;
             currentRoom.transform.Rotate(0.0f, exit.Item1.transform.parent.rotation.eulerAngles.y - exit.Item2, 0.0f, Space.Self);
@@ -137,9 +138,9 @@ public class CreateHouseScript : MonoBehaviour
             currentRoom = Instantiate(corridors[0]);
             currentRoom.transform.position = exit.Item1.transform.position;
             currentRoom.transform.Rotate(0.0f, exit.Item1.transform.parent.rotation.eulerAngles.y - exit.Item2, 0.0f, Space.Self);
-            if (roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % 32,
-                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % 32,
-                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % 32] == 0)
+            if (roomField[(int)(currentRoom.GetComponent<RoomScript>().Center.position.x / roomSize) % fieldSize,
+                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.y / roomSize) % fieldSize,
+                          (int)(currentRoom.GetComponent<RoomScript>().Center.position.z / roomSize) % fieldSize] == 0)
             {
                 Destroy(currentRoom);
                 currentRoom = Instantiate(roomWindowPlugs[exit.Item3]);
@@ -159,7 +160,7 @@ public class CreateHouseScript : MonoBehaviour
         {
             for (int j = 0; j < roomField.GetLength(2); j++)
             {
-                if((i < 4 || j < 4 || i > 27 || j > 27) && roomField[i, 0, j] == 0)
+                if((i < 2 || j < 2 || i > fieldSize-2 || j > fieldSize - 2) && roomField[i, 0, j] == 0)
                 {
                     Instantiate(farEnvironment[Random.Range(0, farEnvironment.Length)], new Vector3(i * roomSize, 0, j * roomSize),Quaternion.identity);
                 }
@@ -179,9 +180,11 @@ public class CreateHouseScript : MonoBehaviour
         if (roomSize == 0)
             throw new System.Exception("Ты больной что ли, какой размер комнаты нулевой, у тебя юнити зависнет нахер, не делaй так");
 
+        //roomField = new int[fieldSize, 1, fieldSize];
+
         SpawnRawRooms();
 
-        Instantiate(person, new Vector3(15 * roomSize + 6f, 2.5f, 15*roomSize), new Quaternion(0, 0, 0, 0));
+        Instantiate(person, new Vector3(((fieldSize / 2) - 1) * roomSize + 6f, 2.5f, ((fieldSize / 2) - 1) * roomSize), new Quaternion(0, 0, 0, 0));
     }
 
 

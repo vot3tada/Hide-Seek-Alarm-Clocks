@@ -56,6 +56,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3912391101282855521}
     m_Modifications:
     - target: {fileID: 1890402574001488998, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890402574001488998, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad2a85c10667bd141a09c191662c9fc9, type: 2}
@@ -119,7 +123,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6826652964050068503, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6826652964050068503, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
 --- !u!4 &2584229777147698671 stripped
 Transform:
