@@ -439,6 +439,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particle: {fileID: 5125215397071872340, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
   material: {fileID: 2100000, guid: 8399dd905c7b6424e9526a430291899f, type: 2}
+  EveryFrame: 30
+  PercentValue: 0.05
 --- !u!1 &5579411265003668330
 GameObject:
   m_ObjectHideFlags: 0

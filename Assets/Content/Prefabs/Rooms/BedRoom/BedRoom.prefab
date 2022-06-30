@@ -1921,6 +1921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Single Bookshelf Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2598092465638398096, guid: 36c91cfd6efd92a40a275a4acb85c894, type: 3}
+      propertyPath: m_TagString
+      value: PlaceForClocks
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36c91cfd6efd92a40a275a4acb85c894, type: 3}
 --- !u!4 &7046424231801807302 stripped

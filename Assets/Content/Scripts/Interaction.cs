@@ -17,10 +17,25 @@ public class Interaction : MonoBehaviour
         if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "Clock" && Input.GetAxis("Interaction") == 1)
         {
             hit.transform.gameObject.GetComponent<AudioSource>().Play();
-            hit.transform.gameObject.transform.parent = gameObject.transform;
+            hit.transform.gameObject.transform.parent = GameObject.FindGameObjectWithTag("Bag").transform;
             hit.transform.gameObject.transform.position = GameObject.FindGameObjectWithTag("Bag").transform.position;
             hit.transform.gameObject.GetComponent<CatEscape>().enabled = true;
             //Destroy(hit.transform.gameObject);
+        }
+
+        if (Physics.Raycast(hell, out hit, maxDistance) && hit.transform.gameObject.tag == "PlaceForClocks" && Input.GetAxis("Interaction") == 1)
+        {
+            var bag = GameObject.FindGameObjectWithTag("Bag");
+            int count = bag.transform.childCount;
+            for (int i = 0; i < count; i++)
+            {
+                var cat = GameObject.FindGameObjectWithTag("Bag").transform.GetChild(0);
+                cat.gameObject.GetComponent<CatEscape>().enabled = false;
+                cat.position = hit.transform.position;
+                cat.parent = hit.transform.gameObject.transform;
+                cat.tag = "Untagged";
+            }
+            
         }
 
 

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7249488829074529076}
   - component: {fileID: 5125215397071872340}
   - component: {fileID: 9055776416978538449}
+  - component: {fileID: -6914921775216691380}
   m_Layer: 0
   m_Name: EscapingCat
   m_TagString: Untagged
@@ -50,7 +51,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -4761,7 +4762,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8399dd905c7b6424e9526a430291899f, type: 2}
+  - {fileID: 2100000, guid: 0cc79bd779293fe40be49d47ac5b6eeb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4812,3 +4813,15 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-6914921775216691380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978691192869828074}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9006deee79d6c4fae50f242fc09e17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

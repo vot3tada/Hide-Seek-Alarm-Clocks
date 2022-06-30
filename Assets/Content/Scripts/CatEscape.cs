@@ -26,11 +26,12 @@ public class CatEscape : MonoBehaviour
         {
             if (Random.value < PercentValue)
             {
-                var partic = Instantiate(particle, GameObject.FindGameObjectWithTag("Bag").transform);
+                var partic = GameObject.FindGameObjectWithTag("Player").transform.Find("EscapingCat").GetComponent<ParticleSystem>();
                 partic.GetComponent<Renderer>().material = material;
                 var main = partic.main;
                 main.maxParticles = 1;
                 main.loop = false;
+                partic.Play();
                 //partic.GetComponent<Renderer>().material = gameObject.GetComponent<Renderer>().material;
                 Transform EscapePlace;
                 if (Random.value > 0.5)
