@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class CatEscape : MonoBehaviour
+public class CatEscape : MonoBehaviour 
 {
     // Start is called before the first frame update
     [SerializeField] ParticleSystem particle;
