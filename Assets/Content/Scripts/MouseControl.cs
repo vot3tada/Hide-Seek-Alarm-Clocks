@@ -5,7 +5,7 @@ using UnityEngine;
 public class MouseControl : MonoBehaviour
 {
     public Transform player;
-    private float sensetive = 100f;
+    private float sensetive = 80f;
     private float rotation = 0f;
 
     private float mouseX;

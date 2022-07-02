@@ -16,10 +16,6 @@ public class CatEscape : MonoBehaviour
     {
         particle.GetComponent<Renderer>().material = material;
     }
-    void Start()
-    {
-        //particle.GetComponent<Renderer>().material = gameObject.GetComponent<Renderer>().material;
-    }
 
     // Update is called once per frame
     void Update()
@@ -49,5 +45,10 @@ public class CatEscape : MonoBehaviour
                 dontescapecount += 1f;
 
         }
+    }
+
+    public void ResetDontEscapeCount()
+    {
+        dontescapecount = 0;
     }
 }

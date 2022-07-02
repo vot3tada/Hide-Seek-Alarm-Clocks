@@ -12,6 +12,13 @@ public class Interaction : MonoBehaviour
     [SerializeField] private float maxDistance;
     [SerializeField] private GameObject bag;
 
+    private GameEndScript gameEndScript;
+
+    private void Start()
+    {
+        gameEndScript = GameObject.Find("GameEndHandler").GetComponent<GameEndScript>();
+    }
+
     private void FixedUpdate()
     {
         Ray();
@@ -29,7 +36,8 @@ public class Interaction : MonoBehaviour
                         cat.transform.parent = GameObject.FindGameObjectWithTag("Bag").transform;
                         cat.transform.localPosition = new Vector3(0f + 0.01f*bag.transform.childCount, 0f + 0.04f * bag.transform.childCount, 0f + -0.03f * bag.transform.childCount);
                         cat.transform.localRotation = Quaternion.Euler(0, -45, 0);
-                        hit.transform.gameObject.GetComponent<CatEscape>().enabled = true;
+                        //hit.transform.gameObject.GetComponent<CatEscape>().enabled = true;
+                        hit.transform.gameObject.GetComponent<CatEscape>().ResetDontEscapeCount();
                         break;
                     }
                 case "PlaceForClocks":
@@ -47,6 +55,7 @@ public class Interaction : MonoBehaviour
                             var audio = cat.GetComponents<AudioSource>();
                             audio[1].Stop();
                             audio[2].Play();
+                            gameEndScript.AddCat();
                         }
                         break;
                     }
