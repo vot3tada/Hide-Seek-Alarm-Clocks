@@ -7,7 +7,9 @@ public class PlayerMovement : MonoBehaviour
     private float xMove;
     private float zMove;
     private Vector3 moveDirection;
-    private float speed;
+    private float speed = 6F;
+    private float speedMove = 6f;
+    private float speedShift;
     private float gravity;
 
     private Vector3 velocity;
@@ -18,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         player = GetComponent<CharacterController>();
-        speed = 5f;
+        speedShift = speed * 2;
         gravity = -4f;
     }
 
@@ -44,9 +46,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (Input.GetAxis("Run") == 1)
-            speed = 11f;
+            speed = speedShift;
         else
-            speed = 5f;
+            speed = speedMove;
 
         if (Input.GetAxis("SitDown") == 1)
             player.height = 1;
