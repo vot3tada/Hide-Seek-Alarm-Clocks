@@ -28,7 +28,8 @@ public class CatEscape : MonoBehaviour
         {
             if (Random.value * timeFactor.Evaluate(dontescapecount) < PercentValue)
             {
-                var partic = GameObject.FindGameObjectWithTag("Bag").transform.Find("EscapingCat").GetComponent<ParticleSystem>();
+                dontescapecount = 0;
+                var partic = gameObject.transform.Find("EscapingCat").GetComponent<ParticleSystem>();
                 partic.GetComponent<Renderer>().material = material;
                 var main = partic.main;
                 main.maxParticles = 1;
@@ -42,7 +43,7 @@ public class CatEscape : MonoBehaviour
                 gameObject.transform.localScale = Vector3.one * 0.1f;
                 gameObject.transform.localRotation = Quaternion.Euler(-90, 0, 0);
                 gameObject.transform.parent = EscapePlace.transform;
-                gameObject.GetComponent<CatEscape>().enabled = false;
+                //gameObject.GetComponent<CatEscape>().enabled = false;
             }
             else
                 dontescapecount += 1f;

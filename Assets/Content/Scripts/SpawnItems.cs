@@ -14,6 +14,7 @@ public class SpawnItems : MonoBehaviour
         spawns = GameObject.FindGameObjectsWithTag("Spawner").ToList();
         for (int i = 0; i < 5; i++)
         {
+            if (cats[i] == null) continue;
             if (spawns.Count == 0)
                 break;
 
