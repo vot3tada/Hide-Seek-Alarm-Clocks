@@ -17,11 +17,9 @@ public class Meow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(RandomValue * Random.value);
         if (Random.value > 0.999)
         {
             MeowSound.Play();
-            //Debug.Log("Meow");
         }
     }
 }
