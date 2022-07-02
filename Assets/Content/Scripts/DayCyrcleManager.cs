@@ -23,15 +23,22 @@ public class DayCyrcleManager: MonoBehaviour
     private void Start()
     {
         sunIntensity = Sun.intensity;
+        StartCoroutine(StartTimer());
     }
 
-
-    void FixedUpdate()
+    private IEnumerator StartTimer()
     {
-        timeOfDay += (Time.fixedDeltaTime / dayDuration) % 1;
+        while(timeOfDay < 1)
+        {
+            timeOfDay += (Time.deltaTime / dayDuration);
+            UpdateSun();
+            yield return null;
+        }
+    }
 
+    void UpdateSun()
+    {
         Sun.transform.localRotation = Quaternion.Euler(timeOfDay* 360f, 180f, 0);
-
         Sun.intensity = sunIntensity * SunCurve.Evaluate(timeOfDay);
     }
 }

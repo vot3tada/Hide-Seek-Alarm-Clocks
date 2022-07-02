@@ -61,18 +61,18 @@ public class GameEndScript : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             foreach (GameObject l in OtherUI)
                 l.SetActive(false);
-            audioMixer.SetFloat("sounds", -80f);
-            audioMixer.SetFloat("ambient", -80f);
+            audioMixer.SetFloat("Sounds", -80f);
+            audioMixer.SetFloat("Ambient", -80f);
             player.GetComponent<CharacterController>().enabled = false;
             WinUI.SetActive(true);
         }
         if(timeLeft <= 0)
         {
+            player.GetComponent<AudioSource>().Play();
             Cursor.lockState = CursorLockMode.None;
             foreach (GameObject l in OtherUI)
                 l.SetActive(false);
-            audioMixer.SetFloat("sounds", -80f);
-            audioMixer.SetFloat("ambient", -80f);
+            audioMixer.FindSnapshot("EndGame").TransitionTo(1f);
             timeLeft = 0;
             player.GetComponent<CharacterController>().enabled = false;
             DefeatUI.SetActive(true);
@@ -82,7 +82,6 @@ public class GameEndScript : MonoBehaviour
     public void GoToMenu()
     {
         SceneManager.LoadScene(0);
-        audioMixer.SetFloat("sounds", 0f);
-        audioMixer.SetFloat("ambient", 0f);
+        audioMixer.FindSnapshot("GameProcess").TransitionTo(1f);
     }
 }
