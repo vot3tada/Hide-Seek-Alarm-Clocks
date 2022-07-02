@@ -5,11 +5,20 @@ using UnityEngine;
 public class DayCyrcleManager: MonoBehaviour
 {
     [Range(0, 1), SerializeField] private float timeOfDay;
-    [SerializeField] private float DayDuration = 60f;
+    [SerializeField] private float dayDuration = 60f;
     [SerializeField] private Light Sun;
     [SerializeField] private AnimationCurve SunCurve;
     private float sunIntensity;
 
+    public float DayDuration
+    {
+        set 
+        {
+            if (value < 60 || value > 600)
+                throw new System.Exception("MADE IN HEAVEN!!!");
+            dayDuration = value*2;
+        }
+    }
 
     private void Start()
     {
@@ -19,7 +28,7 @@ public class DayCyrcleManager: MonoBehaviour
 
     void FixedUpdate()
     {
-        timeOfDay += (Time.fixedDeltaTime / DayDuration) % 1;
+        timeOfDay += (Time.fixedDeltaTime / dayDuration) % 1;
 
         Sun.transform.localRotation = Quaternion.Euler(timeOfDay* 360f, 180f, 0);
 
