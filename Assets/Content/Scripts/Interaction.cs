@@ -47,6 +47,7 @@ public class Interaction : MonoBehaviour
                             //Нулевое - система частиц
                             GameObject cat = bag.transform.GetChild(1).gameObject;
                             cat.GetComponent<CatEscape>().enabled = false;
+                            cat.GetComponent<Meow>().enabled = false;
                             cat.transform.parent = hit.transform;
                             cat.transform.localPosition = new Vector3(3f - 1.2f * hit.transform.childCount, 12f, -3f + 0.75f * hit.transform.childCount);
                             cat.transform.localScale = new Vector3(0.3f, 0.5f, 1f);
