@@ -36,14 +36,8 @@ public class CatEscape : MonoBehaviour
                 partic.Play();
                 //partic.GetComponent<Renderer>().material = gameObject.GetComponent<Renderer>().material;
                 Transform EscapePlace;
-                if (Random.value > 0.5)
-                {
-                    EscapePlace = GameObject.FindGameObjectsWithTag("Spawner").FirstOrDefault(spawn => spawn.transform.childCount == 0).transform;
-                }
-                else
-                {
-                    EscapePlace = GameObject.FindGameObjectsWithTag("Spawner").LastOrDefault(spawn => spawn.transform.childCount == 0).transform;
-                }
+                var EscapePlaces = GameObject.FindGameObjectsWithTag("Spawner").Where(spawn => spawn.transform.childCount == 0).ToList();
+                EscapePlace = EscapePlaces[(int)Random.Range(0, EscapePlaces.Count)].transform;
                 gameObject.transform.position = EscapePlace.transform.position;
                 gameObject.transform.localScale = Vector3.one * 0.1f;
                 gameObject.transform.localRotation = Quaternion.Euler(-90, 0, 0);
