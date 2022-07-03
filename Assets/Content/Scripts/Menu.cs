@@ -7,17 +7,6 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void exit_game()
     {
         Application.Quit();
@@ -26,6 +15,6 @@ public class Menu : MonoBehaviour
 
     public void new_game()
     {
-        SceneManager.LoadScene(1);
+        
     }
 }
