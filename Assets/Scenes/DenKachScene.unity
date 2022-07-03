@@ -1811,8 +1811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76c8cc5597626a449abbcd92994f23a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldSize: 16
-  roomsCount: 4
   roomSize: 16
   bedRoom: {fileID: 787603991111280132, guid: 331b5e5cd90d27d40b6bc8229755bd61, type: 3}
   corridors:
@@ -1876,6 +1874,57 @@ MonoBehaviour:
   outsideWallPlug: {fileID: 787603991111280132, guid: fedcb27c0136a554483e0cc50d7e2033, type: 3}
   outsideWindowPlug: {fileID: 787603991111280132, guid: 7587887b1bc9db5478b1856295e62321, type: 3}
   person: {fileID: 5952055767246947043, guid: 9c2c9c89c80719b4ba4c326a9393bcd6, type: 3}
+  FieldByRooms:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 16
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 7
+      value: 16
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 8
+      value: 20
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 12
+      value: 28
+      inSlope: 1.6699004
+      outSlope: 1.6699004
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 16
+      value: 32
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1496449866
 Transform:
   m_ObjectHideFlags: 0

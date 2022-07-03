@@ -91,20 +91,19 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
-  - {fileID: 905673531808561043}
   m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
   - guid: 8358a45312968ae45afaae9450bca196
-    name: MyExposedParam 1
+    name: Ambient
   - guid: e4e35519b7f4c8f45b968905f1bcdcaa
-    name: MyExposedParam 2
+    name: EventSounds
   - guid: 6487bf44a8360b043b404ee4d9d44d9d
-    name: volume
+    name: Master
   - guid: 2c25e3e2e59ce794297cde340f1a6592
-    name: MyExposedParam
+    name: Sounds
   m_AudioMixerGroupViews:
   - guids:
     - 30fc1771b4caf6841ad090c29eba2b04
@@ -160,7 +159,7 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 8a22d921dbd4d2d4dada6e2584252aad
   m_FloatValues:
-    2c25e3e2e59ce794297cde340f1a6592: -20.610773
+    2c25e3e2e59ce794297cde340f1a6592: -20
     6487bf44a8360b043b404ee4d9d44d9d: 0
     e4e35519b7f4c8f45b968905f1bcdcaa: -19.928473
   m_TransitionOverrides: {}
@@ -183,18 +182,3 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
---- !u!245 &905673531808561043
-AudioMixerSnapshotController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: EndGame
-  m_AudioMixer: {fileID: 24100000}
-  m_SnapshotID: 52707ff8cfffad9438c6039256286351
-  m_FloatValues:
-    2c25e3e2e59ce794297cde340f1a6592: -80
-    8358a45312968ae45afaae9450bca196: -65
-    6487bf44a8360b043b404ee4d9d44d9d: 0
-    e4e35519b7f4c8f45b968905f1bcdcaa: -19.928473
-  m_TransitionOverrides: {}

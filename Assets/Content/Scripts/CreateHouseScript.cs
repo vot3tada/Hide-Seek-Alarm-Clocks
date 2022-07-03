@@ -11,8 +11,10 @@ public class CreateHouseScript : MonoBehaviour
     private List<GameObject> currentRooms = new List<GameObject>();
     private int[,,] roomField;
 
-    [SerializeField, Range(16, 32)] private int fieldSize;
-    [SerializeField, Range(4, 14)] private int roomsCount;
+    //[SerializeField, Range(16, 32)] 
+    private int fieldSize;
+    //[SerializeField, Range(4, 14)]
+    private int roomsCount;
     [SerializeField] private float roomSize;
     [SerializeField] private GameObject bedRoom;
     [SerializeField] private GameObject[] corridors;
@@ -30,6 +32,7 @@ public class CreateHouseScript : MonoBehaviour
     [SerializeField] private GameObject outsideWindowPlug;
 
     [SerializeField] private GameObject person;
+    [SerializeField] private AnimationCurve FieldByRooms;
 
     void SpawnBedroom()
     {
@@ -176,12 +179,16 @@ public class CreateHouseScript : MonoBehaviour
         if (roomSize == 0)
             throw new System.Exception("Ты больной что ли, какой размер комнаты нулевой, у тебя юнити зависнет нахер, не делaй так");
 
-        //roomField = new int[fieldSize, 1, fieldSize];
+        
 
+        roomsCount = (int)PlayerPrefs.GetFloat("RoomsCount");
+        fieldSize = 12 + ((roomsCount / 2) * 2);
+        Debug.Log(roomsCount);
+        Debug.Log(fieldSize);
         SpawnRawRooms();
 
         Instantiate(person, new Vector3(((fieldSize / 2) - 1) * roomSize + 6f, 2.5f, ((fieldSize / 2) - 1) * roomSize), new Quaternion(0, 0, 0, 0));
-        //gg.GetComponent<SpawnItems>().enabled = true;
+        
         gameObject.GetComponent<SpawnItems>().Spawn();
     }
 

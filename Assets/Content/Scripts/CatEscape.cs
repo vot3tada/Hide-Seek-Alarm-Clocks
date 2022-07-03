@@ -9,12 +9,14 @@ public class CatEscape : MonoBehaviour
     [SerializeField] ParticleSystem particle;
     [SerializeField] Material material;
     [SerializeField] int EveryFrame;
-    [SerializeField] double PercentValue;
+    //[SerializeField] 
+    private double PercentValue;
     [SerializeField] AnimationCurve timeFactor;
     private float dontescapecount = 0;
     private void Awake()
     {
         particle.GetComponent<Renderer>().material = material;
+        PercentValue = PlayerPrefs.GetFloat("CatActivity");
     }
 
     // Update is called once per frame
