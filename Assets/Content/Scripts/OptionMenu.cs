@@ -25,11 +25,11 @@ public class OptionMenu : MonoBehaviour
 
     void Start()
     {
-        //Graphics settings
-        if(PlayerPrefs.HasKey("MasterVolume"))
+        //Graphics/Audio settings
+        if (PlayerPrefs.HasKey("MasterVolume"))
             masterSlider.value = PlayerPrefs.GetFloat("MasterVolume");
         if (PlayerPrefs.HasKey("AmbientVolume"))
-            ambientSlider.value = PlayerPrefs.GetFloat("AmbientVolume");
+            ambientSlider.value = PlayerPrefs.GetFloat("AmbientVolume");    
         if (PlayerPrefs.HasKey("SoundsVolume"))
             soundsSlider.value = PlayerPrefs.GetFloat("SoundsVolume");
         if (PlayerPrefs.HasKey("Quality"))
