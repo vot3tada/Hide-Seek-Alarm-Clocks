@@ -1,20 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LoadScreen : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private Sprite[] sprites;
-    private SpriteRenderer spriteRenderer;
-    void Start()
-    {
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-    }
+    [SerializeField] private Image image;
 
     // Update is called once per frame
     void Update()
     {
-        spriteRenderer.sprite = sprites[(int)(Time.time * 10) % sprites.Length];
+        image.sprite = sprites[(int)(Time.time * 10) % sprites.Length];
     }
 }

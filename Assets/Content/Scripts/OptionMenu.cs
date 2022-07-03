@@ -20,7 +20,9 @@ public class OptionMenu : MonoBehaviour
     [SerializeField] private TMP_Text DurationText;
     [SerializeField] private TMP_Text CatText;
 
+    [SerializeField] private GameObject loadScreen;
 
+    [SerializeField] private TMP_Text versionText;
     void Start()
     {
         //Graphics/Audio settings
@@ -52,6 +54,8 @@ public class OptionMenu : MonoBehaviour
             CatText.transform.parent.gameObject.GetComponentInChildren<Slider>().value = PlayerPrefs.GetFloat("CatActivity");
         else
             CatText.transform.parent.gameObject.GetComponentInChildren<Slider>().value = 0.05f;
+
+        versionText.text = $"Версия игры {Application.version}";
     }
 
     public void SetVolume(float volume)
@@ -132,8 +136,7 @@ public class OptionMenu : MonoBehaviour
 
     public void GoToPlay()
     {
-
-        gameObject.transform.Find("CanvasLoad").gameObject.SetActive(true);
+        loadScreen.SetActive(true);
         SceneManager.LoadSceneAsync(1);
     }
 }
