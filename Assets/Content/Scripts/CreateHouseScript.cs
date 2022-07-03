@@ -183,8 +183,8 @@ public class CreateHouseScript : MonoBehaviour
 
         roomsCount = (int)PlayerPrefs.GetFloat("RoomsCount");
         fieldSize = 12 + ((roomsCount / 2) * 2);
-        Debug.Log(roomsCount);
-        Debug.Log(fieldSize);
+        //Debug.Log(roomsCount);
+        //Debug.Log(fieldSize);
         SpawnRawRooms();
 
         Instantiate(person, new Vector3(((fieldSize / 2) - 1) * roomSize + 6f, 2.5f, ((fieldSize / 2) - 1) * roomSize), new Quaternion(0, 0, 0, 0));

@@ -15,8 +15,8 @@ public class GameEndScript : MonoBehaviour
     private int catsFinded;
     private float timeLeft;
     private GameObject player;
-    private float ambientVolume;
-    private float soundsVolume;
+    //private float ambientVolume;
+    //private float soundsVolume;
 
     public float GameSessionDuration
     {
@@ -45,8 +45,8 @@ public class GameEndScript : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         timeLeft = gameSessionDuration;
         StartCoroutine(StartTimer());
-        audioMixer.GetFloat("Sounds", out soundsVolume);
-        audioMixer.GetFloat("Ambient", out ambientVolume);
+        //audioMixer.GetFloat("Sounds", out soundsVolume);
+        //audioMixer.GetFloat("Ambient", out ambientVolume);
     }
 
     private IEnumerator StartTimer()
@@ -63,9 +63,11 @@ public class GameEndScript : MonoBehaviour
     {
         if(catsFinded == 5)
         {
+            StopAllCoroutines();
             Cursor.lockState = CursorLockMode.None;
             foreach (GameObject l in OtherUI)
                 l.SetActive(false);
+            
             audioMixer.SetFloat("Sounds", -80f);
             audioMixer.SetFloat("Ambient", -80f);
             player.GetComponent<CharacterController>().enabled = false;
@@ -73,6 +75,7 @@ public class GameEndScript : MonoBehaviour
         }
         if(timeLeft <= 0)
         {
+            StopAllCoroutines();
             player.GetComponent<AudioSource>().Play();
             Cursor.lockState = CursorLockMode.None;
             foreach (GameObject l in OtherUI)
@@ -88,7 +91,7 @@ public class GameEndScript : MonoBehaviour
     public void GoToMenu()
     {
         SceneManager.LoadScene(0);
-        audioMixer.SetFloat("Sounds", soundsVolume);
-        audioMixer.SetFloat("Ambient", ambientVolume);
+       //audioMixer.SetFloat("Sounds", soundsVolume);
+        //audioMixer.SetFloat("Ambient", ambientVolume);
     }
 }
