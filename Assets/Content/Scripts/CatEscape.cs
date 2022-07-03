@@ -7,7 +7,7 @@ public class CatEscape : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] ParticleSystem particle;
-    [SerializeField] Material material;
+    //[SerializeField] Material material;
     [SerializeField] int EveryFrame;
     //[SerializeField] 
     private double PercentValue;
@@ -15,7 +15,7 @@ public class CatEscape : MonoBehaviour
     private float dontescapecount = 0;
     private void Awake()
     {
-        particle.GetComponent<Renderer>().material = material;
+        //particle.GetComponent<Renderer>().material = material;
         PercentValue = PlayerPrefs.GetFloat("CatActivity");
     }
 
@@ -27,13 +27,14 @@ public class CatEscape : MonoBehaviour
             if (Random.value * timeFactor.Evaluate(dontescapecount) < PercentValue)
             {
                 dontescapecount = 0;
-                var partic = gameObject.transform.Find("EscapingCat").GetComponent<ParticleSystem>();
-                partic.GetComponent<Renderer>().material = material;
-                var main = partic.main;
-                main.maxParticles = 1;
-                main.loop = false;
+                //��� ��������� ����, 28 ������ - �������
+                //var partic = gameObject.transform.Find("EscapingCat").GetComponent<ParticleSystem>();
+                //partic.GetComponent<Renderer>().material = material;
+                //var main = partic.main;
+                //main.maxParticles = 1;
+                //main.loop = false;
+                var partic = Instantiate(particle, gameObject.transform.position,Quaternion.Euler(-90,0,0));
                 partic.Play();
-                //partic.GetComponent<Renderer>().material = gameObject.GetComponent<Renderer>().material;
                 Transform EscapePlace;
                 var EscapePlaces = GameObject.FindGameObjectsWithTag("Spawner").Where(spawn => spawn.transform.childCount == 0).ToList();
                 EscapePlace = EscapePlaces[(int)Random.Range(0, EscapePlaces.Count)].transform;

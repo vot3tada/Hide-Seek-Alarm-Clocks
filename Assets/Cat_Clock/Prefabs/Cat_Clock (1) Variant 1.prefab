@@ -400,7 +400,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 836526913880224307, guid: 8fc3b2cdeaded6b478aa2c8fa4bfd063, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9fd20b62cab91b04797e239a8a84f50d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -409,9 +409,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 25
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -429,7 +429,7 @@ AudioSource:
       outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 0
+      value: 0.038604736
       inSlope: -1.002004
       outSlope: -1.002004
       tangentMode: 0
@@ -688,8 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b72cb693723eb44395fb50ef0b8cf74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 5125215397071872340, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
-  material: {fileID: 2100000, guid: 8399dd905c7b6424e9526a430291899f, type: 2}
+  particle: {fileID: 1588541514507683140, guid: aebda4453dea41b44aca8db31c18d834, type: 3}
   EveryFrame: 30
   PercentValue: 0.05
   timeFactor:
@@ -697,21 +696,21 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 10
-      inSlope: -0.24974999
-      outSlope: -0.24974999
-      tangentMode: 34
+      value: 10.031525
+      inSlope: -0.13400061
+      outSlope: -0.13400061
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.33333334
+      outWeight: 0.14772908
     - serializedVersion: 3
-      time: 40
-      value: 0.01
-      inSlope: -0.24974999
-      outSlope: -0.24974999
-      tangentMode: 34
+      time: 43.82083
+      value: 0.07510376
+      inSlope: -0.65155274
+      outSlope: -0.65155274
+      tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0.041742023
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -822,6 +821,10 @@ PrefabInstance:
     - target: {fileID: 4978691192869828074, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
       propertyPath: m_Name
       value: EscapingCat
+      objectReference: {fileID: 0}
+    - target: {fileID: 5125215397071872340, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
+      propertyPath: looping
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7249488829074529076, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
       propertyPath: m_RootOrder

@@ -400,7 +400,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 836526913880224307, guid: 8fc3b2cdeaded6b478aa2c8fa4bfd063, type: 2}
   m_audioClip: {fileID: 8300000, guid: 6551d309df7e0cc4cbb63899bb792f01, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -409,9 +409,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 25
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -688,8 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b72cb693723eb44395fb50ef0b8cf74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 5125215397071872340, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
-  material: {fileID: 2100000, guid: 0cc79bd779293fe40be49d47ac5b6eeb, type: 2}
+  particle: {fileID: 1588541514507683140, guid: aebda4453dea41b44aca8db31c18d834, type: 3}
   EveryFrame: 30
   PercentValue: 0.05
   timeFactor:
@@ -697,21 +696,21 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 10
-      inSlope: -0.24974999
-      outSlope: -0.24974999
-      tangentMode: 34
+      value: 10.031525
+      inSlope: -0.13400061
+      outSlope: -0.13400061
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.33333334
+      outWeight: 0.14772908
     - serializedVersion: 3
-      time: 40
-      value: 0.01
-      inSlope: -0.24974999
-      outSlope: -0.24974999
-      tangentMode: 34
+      time: 43.82083
+      value: 0.07510376
+      inSlope: -0.65155274
+      outSlope: -0.65155274
+      tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0.041742023
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -867,6 +866,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9055776416978538449, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68cc17f8b040a434990a5f88debc28a1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
 --- !u!4 &3610145504892572142 stripped
