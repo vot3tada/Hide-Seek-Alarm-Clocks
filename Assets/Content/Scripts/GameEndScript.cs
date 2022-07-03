@@ -63,6 +63,7 @@ public class GameEndScript : MonoBehaviour
     {
         if(catsFinded == 5)
         {
+            DefeatUI.SetActive(false);
             StopAllCoroutines();
             Cursor.lockState = CursorLockMode.None;
             foreach (GameObject l in OtherUI)
@@ -71,6 +72,7 @@ public class GameEndScript : MonoBehaviour
             audioMixer.SetFloat("Sounds", -80f);
             audioMixer.SetFloat("Ambient", -80f);
             player.GetComponent<CharacterController>().enabled = false;
+            
             WinUI.SetActive(true);
         }
         if(timeLeft <= 0)
