@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class Interaction : MonoBehaviour
 {
@@ -21,9 +22,9 @@ public class Interaction : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Ray();
         if (Input.GetAxis("Interaction") == 1)
         {
+            Ray();
             Physics.Raycast(hell, out hit, maxDistance);
             if (hit.transform == null)
                 return;
@@ -63,6 +64,12 @@ public class Interaction : MonoBehaviour
                 case "Door":
                     {
                         hit.transform.gameObject.GetComponentInParent<Open>().InteractionWithDoor();
+                        var audios = gameObject.GetComponents<AudioSource>().ToList();
+                        audios.RemoveAt(0);
+                        if (audios.Count(audio => audio.isPlaying) == 0)
+                        {
+                            audios[Random.Range(0, audios.Count)].Play();
+                        }
                         break;
                     }
             }
