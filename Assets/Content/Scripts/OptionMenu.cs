@@ -25,6 +25,7 @@ public class OptionMenu : MonoBehaviour
     [SerializeField] private TMP_Text versionText;
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
         //Graphics/Audio settings
         if (PlayerPrefs.HasKey("MasterVolume"))
             masterSlider.value = PlayerPrefs.GetFloat("MasterVolume");
