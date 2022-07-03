@@ -134,6 +134,8 @@ public class OptionMenu : MonoBehaviour
 
     public void GoToPlay()
     {
-        SceneManager.LoadScene(1);
+
+        gameObject.transform.Find("CanvasLoad").gameObject.SetActive(true);
+        SceneManager.LoadSceneAsync(1);
     }
 }
