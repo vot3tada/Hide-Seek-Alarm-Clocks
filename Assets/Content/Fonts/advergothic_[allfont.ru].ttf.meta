@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: ecae819cbdfde3c449564acd41b95473
+guid: f167753b94036ea449e5b0d6b696bb90
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: -1
+  forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Bauhaus 93
+  - AdverGothic
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
