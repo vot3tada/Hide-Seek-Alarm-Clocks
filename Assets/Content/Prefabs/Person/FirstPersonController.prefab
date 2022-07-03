@@ -224,7 +224,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 5952055767144418219}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 4954415591586073911}
   - component: {fileID: 926436345929519970}
   - component: {fileID: 1159420528672022822}
+  - component: {fileID: 5650217277569927799}
   m_Layer: 0
   m_Name: FirstPersonController
   m_TagString: Player
@@ -734,6 +735,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!64 &5650217277569927799
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5952055767246947043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &3034169472262422179
 PrefabInstance:
   m_ObjectHideFlags: 0

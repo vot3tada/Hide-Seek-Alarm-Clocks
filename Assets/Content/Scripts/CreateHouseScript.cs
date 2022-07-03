@@ -33,6 +33,7 @@ public class CreateHouseScript : MonoBehaviour
 
     [SerializeField] private GameObject person;
     [SerializeField] private AnimationCurve FieldByRooms;
+    public Vector3 PlayerPosition { get { return new Vector3(((fieldSize / 2) - 1) * roomSize + 6f, 2.5f, ((fieldSize / 2) - 1) * roomSize); } }
 
     void SpawnBedroom()
     {
@@ -186,7 +187,6 @@ public class CreateHouseScript : MonoBehaviour
         //Debug.Log(roomsCount);
         //Debug.Log(fieldSize);
         SpawnRawRooms();
-
         Instantiate(person, new Vector3(((fieldSize / 2) - 1) * roomSize + 6f, 2.5f, ((fieldSize / 2) - 1) * roomSize), new Quaternion(0, 0, 0, 0));
         
         gameObject.GetComponent<SpawnItems>().Spawn();

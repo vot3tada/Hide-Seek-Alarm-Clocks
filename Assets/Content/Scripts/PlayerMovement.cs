@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 velocity;
     private CharacterController player;
+    private CreateHouseScript createHouseScript;
 
 
     // Start is called before the first frame update
@@ -22,11 +23,13 @@ public class PlayerMovement : MonoBehaviour
         player = GetComponent<CharacterController>();
         speedShift = speed * 2;
         gravity = -4f;
+        createHouseScript = GameObject.Find("CreateHouseHandler").GetComponent<CreateHouseScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        OutOfBounds();
         Move();
     }
 
@@ -60,6 +63,16 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         player.Move(velocity * Time.deltaTime);
 
+    }
+    private void OutOfBounds()
+    {
+        if (transform.position.y < -3)
+        {
+            player.enabled = false;
+            transform.SetPositionAndRotation(createHouseScript.PlayerPosition, transform.rotation);
+            //Debug.Log("Out");
+            player.enabled = true;
+        }
     }
 
 
