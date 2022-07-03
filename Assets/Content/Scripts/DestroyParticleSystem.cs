@@ -14,7 +14,7 @@ public class DestroyParticleSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (particleSystem.isStopped)
+        if (particleSystem.isStopped || particleSystem.isPaused || !particleSystem.IsAlive())
         {
             particleSystem.GetComponent<DestroyParticleSystem>().enabled = false;
             Destroy(particleSystem);

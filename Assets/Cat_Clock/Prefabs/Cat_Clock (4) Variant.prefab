@@ -439,8 +439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b72cb693723eb44395fb50ef0b8cf74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 5125215397071872340, guid: 25a8b0adb4f0ca84e84a2f6ea9b6c823, type: 3}
-  material: {fileID: 2100000, guid: 68cc17f8b040a434990a5f88debc28a1, type: 2}
+  particle: {fileID: 1588541514507683140, guid: aebda4453dea41b44aca8db31c18d834, type: 3}
   EveryFrame: 30
   PercentValue: 0.05
   timeFactor:
