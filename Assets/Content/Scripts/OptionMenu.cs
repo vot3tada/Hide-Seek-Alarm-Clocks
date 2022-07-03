@@ -35,10 +35,7 @@ public class OptionMenu : MonoBehaviour
         if (PlayerPrefs.HasKey("Quality"))
             qualityDropdown.value = PlayerPrefs.GetInt("Quality");     
         if(PlayerPrefs.HasKey("SoundsToggle"))
-        {
-            AudioListener.pause = PlayerPrefs.GetInt("SoundsToggle") == 1;
-            AudioToggle.isOn = !AudioListener.pause;
-        }
+            AudioToggle.isOn = PlayerPrefs.GetInt("SoundsToggle") == 0;
 
         //Difficult settings
         if (PlayerPrefs.HasKey("RoomsCount"))
@@ -84,8 +81,10 @@ public class OptionMenu : MonoBehaviour
 
     public void Sound()
     {
+        
         AudioListener.pause = !AudioListener.pause;
         PlayerPrefs.SetInt("SoundsToggle", AudioListener.pause ? 1 : 0);
+        
     }
 
     public void FullScreenToggle()
