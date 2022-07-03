@@ -2416,6 +2416,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3912391101282855521}
     m_Modifications:
+    - target: {fileID: 291979255230933296, guid: 9e365b04a4ceaea40b2efaff9ec0e283, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 795b6613200073f4dbd7bb59a5353475, type: 2}
     - target: {fileID: 787603991111280132, guid: 9e365b04a4ceaea40b2efaff9ec0e283, type: 3}
       propertyPath: m_Name
       value: WallPlug1
@@ -2567,7 +2571,7 @@ PrefabInstance:
     - target: {fileID: 1890402574001488998, guid: 0e88ada0a9716ab429b479724d482057, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c7cab827b21211e41ba4300f0585cad1, type: 2}
+      objectReference: {fileID: 2100000, guid: 1d7faecde64a3734ba8c98969e9b0da4, type: 2}
     - target: {fileID: 3541644191972205658, guid: 0e88ada0a9716ab429b479724d482057, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
