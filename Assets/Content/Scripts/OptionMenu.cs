@@ -14,9 +14,7 @@ public class OptionMenu : MonoBehaviour
     [SerializeField] private Slider soundsSlider;
     [SerializeField] private TMP_Dropdown qualityDropdown;
     [SerializeField] private Toggle AudioToggle;
-
-    public bool isFullScreen;
-
+    [SerializeField] private Toggle FullscreenToggle;
 
     [SerializeField] private TMP_Text RoomsText;
     [SerializeField] private TMP_Text DurationText;
@@ -36,6 +34,8 @@ public class OptionMenu : MonoBehaviour
             qualityDropdown.value = PlayerPrefs.GetInt("Quality");     
         if(PlayerPrefs.HasKey("SoundsToggle"))
             AudioToggle.isOn = PlayerPrefs.GetInt("SoundsToggle") == 0;
+        if(PlayerPrefs.HasKey("Fullscreen"))
+            FullscreenToggle.isOn = !(PlayerPrefs.GetInt("Fullscreen") == 1);
 
         //Difficult settings
         if (PlayerPrefs.HasKey("RoomsCount"))
@@ -80,17 +80,15 @@ public class OptionMenu : MonoBehaviour
     }
 
     public void Sound()
-    {
-        
+    {    
         AudioListener.pause = !AudioListener.pause;
         PlayerPrefs.SetInt("SoundsToggle", AudioListener.pause ? 1 : 0);
-        
     }
 
     public void FullScreenToggle()
     {
-        isFullScreen = !isFullScreen;
-        Screen.fullScreen = isFullScreen;
+        Screen.fullScreen = FullscreenToggle.isOn;
+        PlayerPrefs.SetInt("Fullscreen", Screen.fullScreen ? 1 : 0);
     }
 
 
