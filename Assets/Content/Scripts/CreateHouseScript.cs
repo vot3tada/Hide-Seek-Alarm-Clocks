@@ -85,6 +85,7 @@ public class CreateHouseScript : MonoBehaviour
 
                 if (Random.Range(0.0f, 1.0f) > 0.7 && exitsList.Count > 3)
                 {
+                    Destroy(currentRoom);
                     randomPlugNumber = Random.Range(0, rooms.Length);
                     currentRoom = Instantiate(rooms[randomPlugNumber]);
                     currentRoom.transform.position = exitsList[randomExitNumber].Item1.transform.position;

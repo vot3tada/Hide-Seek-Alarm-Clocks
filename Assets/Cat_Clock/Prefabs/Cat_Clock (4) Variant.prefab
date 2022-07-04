@@ -441,27 +441,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particle: {fileID: 1588541514507683140, guid: aebda4453dea41b44aca8db31c18d834, type: 3}
   EveryFrame: 30
-  PercentValue: 0.05
   timeFactor:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 10.031525
-      inSlope: -0.13400061
-      outSlope: -0.13400061
+      value: 15
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.14772908
+      outWeight: 0.33333334
     - serializedVersion: 3
-      time: 43.82083
-      value: 0.07510376
-      inSlope: -0.65155274
-      outSlope: -0.65155274
+      time: 25
+      value: 1
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.041742023
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 500
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2

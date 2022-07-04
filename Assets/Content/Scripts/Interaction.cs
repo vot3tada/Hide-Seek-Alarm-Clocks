@@ -37,6 +37,7 @@ public class Interaction : MonoBehaviour
                         cat.transform.parent = GameObject.FindGameObjectWithTag("Bag").transform;
                         cat.transform.localPosition = new Vector3(0f + 0.01f*bag.transform.childCount, 0f + 0.04f * bag.transform.childCount, 0f + -0.03f * bag.transform.childCount);
                         cat.transform.localRotation = Quaternion.Euler(0, -45, 0);
+                        cat.transform.localScale = Vector3.one * 0.1f;
                         //hit.transform.gameObject.GetComponent<CatEscape>().enabled = true;
                         hit.transform.gameObject.GetComponent<CatEscape>().ResetDontEscapeCount();
                         break;
