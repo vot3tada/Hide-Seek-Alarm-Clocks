@@ -19,7 +19,7 @@ public class SpawnItems : MonoBehaviour
                 break;
 
             int rand = Random.Range(0, spawns.Count);
-            Instantiate(cats[i % cats.Length], spawns[rand].transform);
+            Instantiate(cats[i % cats.Length], spawns[rand].transform).transform.localPosition = Vector3.zero;
             spawns.RemoveAt(rand);
         }
         for (int i = 0; i < spawns.Count; i++)
