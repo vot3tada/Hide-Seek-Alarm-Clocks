@@ -1702,6 +1702,18 @@ PrefabInstance:
       propertyPath: m_Resolution
       value: 2048
       objectReference: {fileID: 0}
+    - target: {fileID: 4372112623753218682, guid: 2206894e7706963408aa3de397e55835, type: 3}
+      propertyPath: m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372112623753218682, guid: 2206894e7706963408aa3de397e55835, type: 3}
+      propertyPath: m_RefreshMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372112623753218682, guid: 2206894e7706963408aa3de397e55835, type: 3}
+      propertyPath: m_TimeSlicingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6512490900745679731, guid: 2206894e7706963408aa3de397e55835, type: 3}
       propertyPath: m_Name
       value: Mirror
