@@ -74,7 +74,12 @@ public class Interaction : MonoBehaviour
                     }
                 case "Lighting":
                     {
-                        hit.transform.gameObject.GetComponent<TurnOff>().SwitchLight();
+                        var lamp = hit.transform.gameObject;
+                        lamp.GetComponent<TurnOff>().SwitchLight();
+                        if (!lamp.GetComponent<AudioSource>().isPlaying)
+                        {
+                            lamp.GetComponent<AudioSource>().Play();
+                        }
                         break;
                     }
             }
