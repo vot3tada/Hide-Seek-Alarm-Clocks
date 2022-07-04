@@ -12,6 +12,7 @@ TagManager:
   - Spawner
   - Bag
   - PlaceForClocks
+  - Lighting
   layers:
   - Default
   - TransparentFX

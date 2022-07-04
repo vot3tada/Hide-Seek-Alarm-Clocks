@@ -72,6 +72,11 @@ public class Interaction : MonoBehaviour
                         }
                         break;
                     }
+                case "Lighting":
+                    {
+                        hit.transform.gameObject.GetComponent<TurnOff>().SwitchLight();
+                        break;
+                    }
             }
         }
     }

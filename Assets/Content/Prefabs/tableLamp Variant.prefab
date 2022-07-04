@@ -39,7 +39,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7544187396899098932}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -105,6 +105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tableLamp Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e8875840dcac12b4d94dd30996c62b60, type: 3}
+      propertyPath: m_TagString
+      value: Lighting
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8875840dcac12b4d94dd30996c62b60, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -163,6 +167,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8875840dcac12b4d94dd30996c62b60, type: 3}
+--- !u!1 &5994136646088976000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: e8875840dcac12b4d94dd30996c62b60, type: 3}
+  m_PrefabInstance: {fileID: 5994136646089007136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &-3745117081506572872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5994136646088976000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e8875840dcac12b4d94dd30996c62b60, type: 3}
+--- !u!114 &-1817382220663050068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5994136646088976000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee17368e09cc0cc4d97ecc5c48f91fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 5722074146398184246}
 --- !u!4 &5994136646089407136 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e8875840dcac12b4d94dd30996c62b60, type: 3}
