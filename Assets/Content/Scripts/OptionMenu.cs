@@ -110,7 +110,7 @@ public class OptionMenu : MonoBehaviour
     public void SetCatActivity(float value)
     {
         PlayerPrefs.SetFloat("CatActivity", value);
-        CatText.text = System.Math.Round((value * 100),3).ToString();
+        CatText.text = System.Math.Round((value * 100),2).ToString();
     }
 
     public void SetPreset(int value)

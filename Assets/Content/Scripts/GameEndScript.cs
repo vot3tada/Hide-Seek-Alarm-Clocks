@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
@@ -10,6 +11,7 @@ public class GameEndScript : MonoBehaviour
     [SerializeField] GameObject WinUI;
     [SerializeField] GameObject DefeatUI;
     [SerializeField] GameObject[] OtherUI;
+    [SerializeField] TMP_Text mark;
     [SerializeField, Tooltip("Время в секундах"), Range(60,600)] private float gameSessionDuration;
     [SerializeField] AudioMixer audioMixer;
     private int catsFinded;
@@ -72,7 +74,8 @@ public class GameEndScript : MonoBehaviour
             audioMixer.SetFloat("Sounds", -80f);
             audioMixer.SetFloat("Ambient", -80f);
             player.GetComponent<CharacterController>().enabled = false;
-            
+
+            mark.text = $"Ваша успеваемость: {3 + System.Math.Round((PlayerPrefs.GetFloat("CatActivity") * 1.15f) + (65.0f / PlayerPrefs.GetFloat("Duration")) + (PlayerPrefs.GetFloat("RoomsCount") * 0.05f),2)}";
             WinUI.SetActive(true);
         }
         if(timeLeft <= 0)
