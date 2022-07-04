@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,7 +12,8 @@ public class PlayerMovement : MonoBehaviour
     private float speedMove = 6f;
     private float speedShift;
     private float gravity;
-
+    private AudioSource[] footAudio;
+    private int footAudioNumber = 0;
     private Vector3 velocity;
     private CharacterController player;
     private CreateHouseScript createHouseScript;
@@ -24,10 +26,11 @@ public class PlayerMovement : MonoBehaviour
         speedShift = speed * 2;
         gravity = -4f;
         createHouseScript = GameObject.Find("CreateHouseHandler").GetComponent<CreateHouseScript>();
+        footAudio = GameObject.FindGameObjectWithTag("MainCamera").GetComponents<AudioSource>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         OutOfBounds();
         Move();
@@ -45,13 +48,28 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             gravity = -4f;
-            velocity.y = 0;
+            velocity.y = 0;   
         }
 
         if (Input.GetAxis("Run") == 1)
+        {
             speed = speedShift;
+            footAudio[((int)Time.time) % footAudio.Length].pitch = 1.4f;
+            if (footAudio.Count(audio => audio.isPlaying) == 0 && (xMove > 0 || zMove > 0))
+            {
+                footAudio[((int)Time.time) % footAudio.Length].Play();
+            }
+        }
         else
+        {
             speed = speedMove;
+            footAudio[((int)Time.time) % footAudio.Length].pitch = 1.1f;
+            if (footAudio.Count(audio => audio.isPlaying) == 0 && (xMove > 0 || zMove > 0))
+            {
+                footAudio[((int)Time.time) % footAudio.Length].Play();
+            }
+        }
+            
 
         if (Input.GetAxis("SitDown") == 1)
             player.height = 1;
@@ -62,7 +80,6 @@ public class PlayerMovement : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         player.Move(velocity * Time.deltaTime);
-
     }
     private void OutOfBounds()
     {
