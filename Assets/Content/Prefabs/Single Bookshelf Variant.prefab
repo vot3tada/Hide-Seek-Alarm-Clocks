@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Single Bookshelf Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1297784057168516, guid: 0f4d4e8e869c4db4b9021d474f4b1060, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4159902232793102, guid: 0f4d4e8e869c4db4b9021d474f4b1060, type: 3}
       propertyPath: m_RootOrder
       value: 0

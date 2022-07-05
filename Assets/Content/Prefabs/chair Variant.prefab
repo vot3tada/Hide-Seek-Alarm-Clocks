@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1127013549361082, guid: 784e35ed9f27aa744b517ad20f9078d6, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4854725301140780, guid: 784e35ed9f27aa744b517ad20f9078d6, type: 3}
       propertyPath: m_RootOrder
       value: 0

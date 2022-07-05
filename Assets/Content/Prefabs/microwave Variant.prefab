@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1873347681747932, guid: 2d4986c0e198a3f479b15bcb1c3a4281, type: 3}
       propertyPath: m_Name
-      value: microwave
+      value: microwave Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873347681747932, guid: 2d4986c0e198a3f479b15bcb1c3a4281, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
       objectReference: {fileID: 0}
     - target: {fileID: 4840314459538972, guid: 2d4986c0e198a3f479b15bcb1c3a4281, type: 3}
       propertyPath: m_RootOrder

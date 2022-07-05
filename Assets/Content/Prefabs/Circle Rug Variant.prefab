@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Rug Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1994777543936158, guid: 987def3a4023b6e4295b676f68243ec5, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4375786764679326, guid: 987def3a4023b6e4295b676f68243ec5, type: 3}
       propertyPath: m_RootOrder
       value: 0

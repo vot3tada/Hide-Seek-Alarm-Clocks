@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oven_2 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1976850110700530, guid: d082ce1e4f16c2e42ab823769512887a, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4313119374057586, guid: d082ce1e4f16c2e42ab823769512887a, type: 3}
       propertyPath: m_RootOrder
       value: 0

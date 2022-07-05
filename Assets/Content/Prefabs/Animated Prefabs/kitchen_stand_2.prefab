@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 3111752276514713192}
   m_Layer: 0
   m_Name: kitchen_stand_2
-  m_TagString: Untagged
+  m_TagString: Forniture
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: table (1) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 41b6752d6dde8cb4fbf532083b2c4ff9, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41b6752d6dde8cb4fbf532083b2c4ff9, type: 3}
       propertyPath: m_RootOrder
       value: 0

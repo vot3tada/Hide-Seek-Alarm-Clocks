@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 5f9756a0f21a8ae488cdacfa8a0887e0, type: 3}
       propertyPath: m_Name
-      value: drawer
+      value: drawer Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f9756a0f21a8ae488cdacfa8a0887e0, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f9756a0f21a8ae488cdacfa8a0887e0, type: 3}
       propertyPath: m_RootOrder

@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchen_sink Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1085802063239566, guid: 8094aef0b3dceb349950acdaac1ce18e, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4047601807038616, guid: 8094aef0b3dceb349950acdaac1ce18e, type: 3}
       propertyPath: m_RootOrder
       value: 0

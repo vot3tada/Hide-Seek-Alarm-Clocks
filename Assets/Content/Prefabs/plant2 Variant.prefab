@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: plant2 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 91fa2d08e758a094ab2baacc8df0a7fa, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 91fa2d08e758a094ab2baacc8df0a7fa, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -13,6 +13,7 @@ TagManager:
   - Bag
   - PlaceForClocks
   - Lighting
+  - Forniture
   layers:
   - Default
   - TransparentFX

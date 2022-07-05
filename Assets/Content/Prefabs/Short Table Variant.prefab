@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Table Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1610110846918286, guid: 5c2dbd023beb8164fbb77c4ace48de98, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4328799709381630, guid: 5c2dbd023beb8164fbb77c4ace48de98, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mug Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1762012836374514, guid: 6b490791baf45464aa0503a856f0100e, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4460504421238972, guid: 6b490791baf45464aa0503a856f0100e, type: 3}
       propertyPath: m_RootOrder
       value: 0
