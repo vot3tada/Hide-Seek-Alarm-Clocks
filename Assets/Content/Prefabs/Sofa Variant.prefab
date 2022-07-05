@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sofa Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1961264880105472, guid: 96525231076a8044b9d62cb077a70cd9, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4047535679343662, guid: 96525231076a8044b9d62cb077a70cd9, type: 3}
       propertyPath: m_RootOrder
       value: 0

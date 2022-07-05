@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1913245509750392, guid: c5e78a669f7936946aa19bff98e30dd5, type: 3}
       propertyPath: m_Name
-      value: kitchen_stand
+      value: kitchen_stand Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913245509750392, guid: c5e78a669f7936946aa19bff98e30dd5, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
       objectReference: {fileID: 0}
     - target: {fileID: 4553192487274296, guid: c5e78a669f7936946aa19bff98e30dd5, type: 3}
       propertyPath: m_RootOrder

@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 4722511329328388}
   m_Layer: 0
   m_Name: Tree
-  m_TagString: Untagged
+  m_TagString: Forniture
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1

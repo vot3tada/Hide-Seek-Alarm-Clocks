@@ -4827,4 +4827,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   render: {fileID: 0}
-  renderDistance: 80
+  renderDistance: 50

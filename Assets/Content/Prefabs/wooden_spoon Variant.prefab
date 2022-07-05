@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wooden_spoon Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1326149738513850, guid: 194f79c388ffe0348a09d9cb2faa93f9, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4429734011366746, guid: 194f79c388ffe0348a09d9cb2faa93f9, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -153,6 +153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fridge
       objectReference: {fileID: 0}
+    - target: {fileID: 1771298078286066, guid: afdaa1a0f5e060047b49e9b7875c57b0, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4489352933428274, guid: afdaa1a0f5e060047b49e9b7875c57b0, type: 3}
       propertyPath: m_RootOrder
       value: 0

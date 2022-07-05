@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: piled Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384525574a277a7429f019da507730de, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384525574a277a7429f019da507730de, type: 3}
       propertyPath: m_RootOrder
       value: 0

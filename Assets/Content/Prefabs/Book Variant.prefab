@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Book Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1606365524784202, guid: 2d2a17fcba37e044eae2da3bc27ce970, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 4849968759718388, guid: 2d2a17fcba37e044eae2da3bc27ce970, type: 3}
       propertyPath: m_RootOrder
       value: 0

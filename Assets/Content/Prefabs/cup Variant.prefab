@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cup Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 23fe7e1e077256a469b1a26b0fe599cb, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 23fe7e1e077256a469b1a26b0fe599cb, type: 3}
       propertyPath: m_RootOrder
       value: 0

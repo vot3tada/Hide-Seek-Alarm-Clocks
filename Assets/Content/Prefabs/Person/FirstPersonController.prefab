@@ -538,6 +538,7 @@ GameObject:
   - component: {fileID: 926436345929519970}
   - component: {fileID: 1159420528672022822}
   - component: {fileID: 5650217277569927799}
+  - component: {fileID: 1732574912438590945}
   m_Layer: 0
   m_Name: FirstPersonController
   m_TagString: Player
@@ -1040,6 +1041,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1732574912438590945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5952055767246947043}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03e1c7da2108c74c8659250337e535a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderDistance: 70
 --- !u!1001 &3034169472262422179
 PrefabInstance:
   m_ObjectHideFlags: 0

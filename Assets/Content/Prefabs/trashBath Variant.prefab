@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: trashBath Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0deb4891d37c2a442b72e33c61001103, type: 3}
+      propertyPath: m_TagString
+      value: Forniture
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0deb4891d37c2a442b72e33c61001103, type: 3}
       propertyPath: m_RootOrder
       value: 0
