@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &3912391101282855521
 Transform:
@@ -69,7 +69,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &7427136334731392860
 Transform:
@@ -167,7 +167,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &3981164794282839347
 Transform:
@@ -303,6 +303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2463667452303512655, guid: 608c8abb21be8d940827b89b4f0ac530, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 608c8abb21be8d940827b89b4f0ac530, type: 3}
 --- !u!4 &3715744109912217390 stripped
@@ -381,6 +385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 6151725486551265548, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
 --- !u!4 &2584229777147698671 stripped
@@ -447,9 +455,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7474025729981299836, guid: 11850dcaf7a4dfb47bedba6ea0afa2f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 7474137663378209322, guid: 11850dcaf7a4dfb47bedba6ea0afa2f6, type: 3}
       propertyPath: m_Name
       value: Book Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7474137663378209322, guid: 11850dcaf7a4dfb47bedba6ea0afa2f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7474400742392245278, guid: 11850dcaf7a4dfb47bedba6ea0afa2f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11850dcaf7a4dfb47bedba6ea0afa2f6, type: 3}

@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &3912391101282855521
 Transform:
@@ -95,7 +95,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &32940097339471885
 Transform:
@@ -126,7 +126,7 @@ GameObject:
   m_TagString: Plug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &5771497598614596858
 Transform:
@@ -160,7 +160,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &343562998445526471
 Transform:
@@ -257,7 +257,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &3679735769694461267
 Transform:
@@ -354,7 +354,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &6399251635772766006
 Transform:
@@ -523,6 +523,10 @@ PrefabInstance:
     - target: {fileID: 116588078030451649, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
       propertyPath: m_Name
       value: beam (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116588078030451649, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6585614974110818826, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
       propertyPath: m_RootOrder
@@ -966,9 +970,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3155948241937644514, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156081397241317634, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156692961197786444, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156851547965084316, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 8747953995017462979, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
       propertyPath: m_Name
       value: kitchen_stand_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747953995017462979, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
@@ -1062,6 +1086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: beam (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 116588078030451649, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6585614974110818826, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1123,6 +1151,10 @@ PrefabInstance:
     - target: {fileID: 787603991111280132, guid: fedcb27c0136a554483e0cc50d7e2033, type: 3}
       propertyPath: m_Name
       value: OutsideWall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 787603991111280132, guid: fedcb27c0136a554483e0cc50d7e2033, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3912391101282855521, guid: fedcb27c0136a554483e0cc50d7e2033, type: 3}
       propertyPath: m_RootOrder
@@ -1300,9 +1332,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8365476577786513635, guid: ad7b9a0226ce9984b965b7c60c2478ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8365564634018744027, guid: ad7b9a0226ce9984b965b7c60c2478ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 8366137278247439437, guid: ad7b9a0226ce9984b965b7c60c2478ef, type: 3}
       propertyPath: m_Name
       value: microwave
+      objectReference: {fileID: 0}
+    - target: {fileID: 8366137278247439437, guid: ad7b9a0226ce9984b965b7c60c2478ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8366154515243534359, guid: ad7b9a0226ce9984b965b7c60c2478ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad7b9a0226ce9984b965b7c60c2478ef, type: 3}
@@ -1321,6 +1369,18 @@ PrefabInstance:
     - target: {fileID: 3423117120823355358, guid: 7124f7029ac4d9d49afad1a8affd73a4, type: 3}
       propertyPath: m_Name
       value: fridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423117120823355358, guid: 7124f7029ac4d9d49afad1a8affd73a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423555813895803894, guid: 7124f7029ac4d9d49afad1a8affd73a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423612106640771152, guid: 7124f7029ac4d9d49afad1a8affd73a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3425237192146602782, guid: 7124f7029ac4d9d49afad1a8affd73a4, type: 3}
       propertyPath: m_RootOrder
@@ -1520,6 +1580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchen_stand
       objectReference: {fileID: 0}
+    - target: {fileID: 1278687628718833835, guid: 8e406f528b1c4be4ca7f7e7dae4a221b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6257262067323142118, guid: 8e406f528b1c4be4ca7f7e7dae4a221b, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -1563,6 +1627,18 @@ PrefabInstance:
     - target: {fileID: 6257262067323142118, guid: 8e406f528b1c4be4ca7f7e7dae4a221b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514677200144037217, guid: 8e406f528b1c4be4ca7f7e7dae4a221b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6515473148029039163, guid: 8e406f528b1c4be4ca7f7e7dae4a221b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453705993441352030, guid: 8e406f528b1c4be4ca7f7e7dae4a221b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e406f528b1c4be4ca7f7e7dae4a221b, type: 3}
@@ -1656,6 +1732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: beam (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 116588078030451649, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6585614974110818826, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1718,6 +1798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OutsideWall
       objectReference: {fileID: 0}
+    - target: {fileID: 787603991111280132, guid: fedcb27c0136a554483e0cc50d7e2033, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 3912391101282855521, guid: fedcb27c0136a554483e0cc50d7e2033, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -1776,6 +1860,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3912391101282855521}
     m_Modifications:
+    - target: {fileID: 2620897618618118782, guid: 3995e1f2a9ae8be42a4cfd813e34ddea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 2620897618618118783, guid: 3995e1f2a9ae8be42a4cfd813e34ddea, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.73
@@ -1792,9 +1880,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 25170379181475a489568e64b513e808, type: 2}
+    - target: {fileID: 4673878136229048883, guid: 3995e1f2a9ae8be42a4cfd813e34ddea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4673878136229048893, guid: 3995e1f2a9ae8be42a4cfd813e34ddea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 5288626313721074746, guid: 3995e1f2a9ae8be42a4cfd813e34ddea, type: 3}
       propertyPath: m_Name
       value: door
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288626313721074746, guid: 3995e1f2a9ae8be42a4cfd813e34ddea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8609583974067983495, guid: 3995e1f2a9ae8be42a4cfd813e34ddea, type: 3}
       propertyPath: m_RootOrder
@@ -1857,6 +1957,10 @@ PrefabInstance:
     - target: {fileID: 116588078030451649, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
       propertyPath: m_Name
       value: beam
+      objectReference: {fileID: 0}
+    - target: {fileID: 116588078030451649, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6585614974110818826, guid: 45721df2b08c83848b5809b8a54053ae, type: 3}
       propertyPath: m_RootOrder
@@ -2350,9 +2454,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3155948241937644514, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156081397241317634, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156692961197786444, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156851547965084316, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 8747953995017462979, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
       propertyPath: m_Name
       value: kitchen_stand_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747953995017462979, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a19fb9023f175424a9d45a7e394c7b61, type: 3}
