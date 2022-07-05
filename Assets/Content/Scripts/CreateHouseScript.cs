@@ -161,7 +161,7 @@ public class CreateHouseScript : MonoBehaviour
         {
             for (int j = 0; j < roomField.GetLength(2); j++)
             {
-                if((i < 2 || j < 2 || i > fieldSize - 3 || j > fieldSize - 3) && roomField[i, 0, j] == 0)
+                if((i < 1 || j < 1 || i > fieldSize - 2 || j > fieldSize - 2) && roomField[i, 0, j] == 0)
                 {
                     Instantiate(farEnvironment[Random.Range(0, farEnvironment.Length)], new Vector3(i * roomSize, 0, j * roomSize),Quaternion.identity);
                 }

@@ -18,7 +18,6 @@ public class CatEscape : MonoBehaviour
     {
         //particle.GetComponent<Renderer>().material = material;
         PercentValue = PlayerPrefs.GetFloat("CatActivity");
-        Debug.Log(PercentValue);
         StartCoroutine(TryEscape());
     }
 
@@ -28,7 +27,6 @@ public class CatEscape : MonoBehaviour
         {
             if (Random.value * timeFactor.Evaluate(dontescapecount) * bagfactor < PercentValue)
             {
-                Debug.Log($"{name} {timeFactor.Evaluate(dontescapecount)} {dontescapecount} {bagfactor}");
                 dontescapecount = 0;
                 bagfactor = 1;
                 var partic = Instantiate(particle, gameObject.transform.position, Quaternion.Euler(-90, 0, 0));
@@ -47,7 +45,6 @@ public class CatEscape : MonoBehaviour
                 if (transform.parent.name == "Bag")
                 {
                     bagfactor /= 1.04f;
-                    Debug.Log(dontescapecount);
                 }
 
             }

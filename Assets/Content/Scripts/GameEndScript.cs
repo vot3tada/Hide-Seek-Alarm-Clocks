@@ -95,7 +95,7 @@ public class GameEndScript : MonoBehaviour
 
     public void GoToMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
        //audioMixer.SetFloat("Sounds", soundsVolume);
         //audioMixer.SetFloat("Ambient", ambientVolume);
     }
