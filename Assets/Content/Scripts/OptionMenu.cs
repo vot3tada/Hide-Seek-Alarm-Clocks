@@ -20,6 +20,8 @@ public class OptionMenu : MonoBehaviour
     [SerializeField] private TMP_Text DurationText;
     [SerializeField] private TMP_Text CatText;
 
+    [SerializeField] private TMP_Text SensText;
+
     [SerializeField] private GameObject loadScreen;
 
     [SerializeField] private TMP_Text versionText;
@@ -55,6 +57,11 @@ public class OptionMenu : MonoBehaviour
             CatText.transform.parent.gameObject.GetComponentInChildren<Slider>().value = PlayerPrefs.GetFloat("CatActivity");
         else
             CatText.transform.parent.gameObject.GetComponentInChildren<Slider>().value = 0.05f;
+
+        if (PlayerPrefs.HasKey("Sensetivity"))
+            SensText.transform.parent.gameObject.GetComponentInChildren<Slider>().value = PlayerPrefs.GetFloat("Sensetivity");
+        else
+            SensText.transform.parent.gameObject.GetComponentInChildren<Slider>().value = 60;
 
         versionText.text = $"Версия игры {Application.version}";
     }
@@ -112,6 +119,12 @@ public class OptionMenu : MonoBehaviour
         PlayerPrefs.SetFloat("CatActivity", value);
         CatText.text = System.Math.Round((value * 100),2).ToString();
     }
+    public void SetSensetivity(float value)
+    {
+        PlayerPrefs.SetFloat("Sensetivity", value);
+        SensText.text = System.Math.Round((value), 0).ToString();
+    }
+
 
     public void SetPreset(int value)
     {
