@@ -138,6 +138,6 @@ public class OptionMenu : MonoBehaviour
     public void GoToPlay()
     {
         loadScreen.SetActive(true);
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(2);
     }
 }

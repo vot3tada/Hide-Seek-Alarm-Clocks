@@ -20,7 +20,7 @@ public class PauseScript : MonoBehaviour
     public void GoToMenu()
     {
         loadScreen.SetActive(true);
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     private void OnDisable()
