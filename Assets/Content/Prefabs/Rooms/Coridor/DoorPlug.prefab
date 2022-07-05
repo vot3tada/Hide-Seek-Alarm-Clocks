@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &3912391101282855521
 Transform:
@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d7763f3f81a3564439d49e1488ed56a4, type: 2}
+    - target: {fileID: 3541644191972205658, guid: 0e88ada0a9716ab429b479724d482057, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4462040285268242617, guid: 0e88ada0a9716ab429b479724d482057, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -118,6 +122,18 @@ PrefabInstance:
     - target: {fileID: 6151725486551265548, guid: 0e88ada0a9716ab429b479724d482057, type: 3}
       propertyPath: m_Name
       value: Door_wall 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151725486551265548, guid: 0e88ada0a9716ab429b479724d482057, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377039851011518248, guid: 0e88ada0a9716ab429b479724d482057, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371563056424836632, guid: 0e88ada0a9716ab429b479724d482057, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e88ada0a9716ab429b479724d482057, type: 3}

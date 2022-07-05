@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Forniture
       objectReference: {fileID: 0}
+    - target: {fileID: 1247816825972218, guid: 63cd93238b1e1bb42b989c84eea4d713, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4737985791781124, guid: 63cd93238b1e1bb42b989c84eea4d713, type: 3}
       propertyPath: m_RootOrder
       value: 0

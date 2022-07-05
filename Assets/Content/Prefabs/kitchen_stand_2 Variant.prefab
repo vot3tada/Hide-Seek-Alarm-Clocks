@@ -15,6 +15,26 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Forniture
       objectReference: {fileID: 0}
+    - target: {fileID: 1113988574319112, guid: ff9e9426591275d4cb0bb08488da2542, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517361479804970, guid: ff9e9426591275d4cb0bb08488da2542, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668455627512522, guid: ff9e9426591275d4cb0bb08488da2542, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865350705558452, guid: ff9e9426591275d4cb0bb08488da2542, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988754040284260, guid: ff9e9426591275d4cb0bb08488da2542, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4734119804863508, guid: ff9e9426591275d4cb0bb08488da2542, type: 3}
       propertyPath: m_RootOrder
       value: 0

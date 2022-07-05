@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &3912391101282855521
 Transform:
@@ -76,7 +76,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &5881430598337209743
 Transform:
@@ -164,9 +164,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3912391101282855521}
     m_Modifications:
+    - target: {fileID: 1019641105251402, guid: 8fe69ef6330d4134a8d60dd9be9af7b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 1678805311569458, guid: 8fe69ef6330d4134a8d60dd9be9af7b0, type: 3}
       propertyPath: m_Name
       value: Cactus (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678805311569458, guid: 8fe69ef6330d4134a8d60dd9be9af7b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4194771879079422, guid: 8fe69ef6330d4134a8d60dd9be9af7b0, type: 3}
       propertyPath: m_RootOrder
@@ -242,6 +250,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf3
       objectReference: {fileID: 0}
+    - target: {fileID: 1192071533832970, guid: 6672fd0a0962c6541b6f9fd4d4289234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1492501877425132, guid: 6672fd0a0962c6541b6f9fd4d4289234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 4436052409276812, guid: 6672fd0a0962c6541b6f9fd4d4289234, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -300,9 +316,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3912391101282855521}
     m_Modifications:
+    - target: {fileID: 1467739171189118, guid: 29b932575b308a044ab24ebddfc8f21c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 1920755702170540, guid: 29b932575b308a044ab24ebddfc8f21c, type: 3}
       propertyPath: m_Name
       value: Cactus1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920755702170540, guid: 29b932575b308a044ab24ebddfc8f21c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4664192295928566, guid: 29b932575b308a044ab24ebddfc8f21c, type: 3}
       propertyPath: m_RootOrder
@@ -422,6 +446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bowl
       objectReference: {fileID: 0}
+    - target: {fileID: 4215567734337902523, guid: 3c1e991e5a0b47a44aeb37bfdea11de9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c1e991e5a0b47a44aeb37bfdea11de9, type: 3}
 --- !u!4 &3072149048676419478 stripped
@@ -499,6 +527,10 @@ PrefabInstance:
     - target: {fileID: 6151725486551265548, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
       propertyPath: m_Name
       value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151725486551265548, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a71ab4618c5afa240ac854baaea90490, type: 3}
@@ -638,9 +670,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3912391101282855521}
     m_Modifications:
+    - target: {fileID: 1019641105251402, guid: 8fe69ef6330d4134a8d60dd9be9af7b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 1678805311569458, guid: 8fe69ef6330d4134a8d60dd9be9af7b0, type: 3}
       propertyPath: m_Name
       value: Cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678805311569458, guid: 8fe69ef6330d4134a8d60dd9be9af7b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4194771879079422, guid: 8fe69ef6330d4134a8d60dd9be9af7b0, type: 3}
       propertyPath: m_RootOrder
@@ -828,9 +868,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3912391101282855521}
     m_Modifications:
+    - target: {fileID: 1426764040318880, guid: 1a001225dac6e854181d2199b4f6cab1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 1748253042150118, guid: 1a001225dac6e854181d2199b4f6cab1, type: 3}
       propertyPath: m_Name
       value: Bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1748253042150118, guid: 1a001225dac6e854181d2199b4f6cab1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4749443507629680, guid: 1a001225dac6e854181d2199b4f6cab1, type: 3}
       propertyPath: m_RootOrder

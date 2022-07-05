@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Lighting
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da77e5dab8b772942bc1b19535e5a2ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da77e5dab8b772942bc1b19535e5a2ab, type: 3}
       propertyPath: m_RootOrder
       value: 0

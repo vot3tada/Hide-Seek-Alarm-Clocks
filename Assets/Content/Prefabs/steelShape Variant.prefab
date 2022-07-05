@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_Name
       value: steelShape Variant
@@ -14,6 +18,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_TagString
       value: Forniture
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0252cbe04efd9fe41a46e95237a0adbf, type: 3}
       propertyPath: m_RootOrder
