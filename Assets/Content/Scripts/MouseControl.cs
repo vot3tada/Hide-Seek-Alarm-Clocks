@@ -5,19 +5,16 @@ using UnityEngine;
 public class MouseControl : MonoBehaviour
 {
     public Transform player;
-    private float sensetive = 80f;
+    private float sensetive;
     private float rotation = 0f;
 
     private float mouseX;
     private float mouseY;
-
-    // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        sensetive = PlayerPrefs.GetFloat("Sensetivity");
     }
-
-    // Update is called once per frame
     void Update() => MouseMove();
 
     private void MouseMove()

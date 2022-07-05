@@ -10,11 +10,5 @@ public class Menu : MonoBehaviour
     public void exit_game()
     {
         Application.Quit();
-        Debug.Log("Выхожу");
-    }
-
-    public void new_game()
-    {
-        
     }
 }
