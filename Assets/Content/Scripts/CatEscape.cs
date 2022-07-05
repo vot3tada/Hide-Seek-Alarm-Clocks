@@ -9,7 +9,6 @@ public class CatEscape : MonoBehaviour
     [SerializeField] ParticleSystem particle;
     //[SerializeField] Material material;
     [SerializeField] int EveryFrame;
-    //[SerializeField] 
     private double PercentValue;
     [SerializeField] AnimationCurve timeFactor;
     private float dontescapecount = 0;
@@ -38,7 +37,6 @@ public class CatEscape : MonoBehaviour
                 var EscapePlaces = GameObject.FindGameObjectsWithTag("Spawner").Where(spawn => spawn.transform.childCount == 0).ToList();
                 EscapePlace = EscapePlaces[(int)Random.Range(0, EscapePlaces.Count)].transform;
                 gameObject.transform.position = EscapePlace.transform.position;
-
                 gameObject.transform.parent = EscapePlace.transform;
                 gameObject.transform.rotation = Quaternion.Euler(-90, 0, 0);
                 gameObject.transform.localScale = Vector3.one * 0.1f;
