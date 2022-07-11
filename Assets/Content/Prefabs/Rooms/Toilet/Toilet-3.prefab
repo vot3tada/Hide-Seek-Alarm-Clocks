@@ -3918,6 +3918,10 @@ PrefabInstance:
       propertyPath: m_BoxOffset.z
       value: 2.6067905
       objectReference: {fileID: 0}
+    - target: {fileID: 4554203917884324471, guid: 54696b85de8d9b646b88b3c81d447324, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ccd84f1f9f1520c4393dc7ab42e7e1eb, type: 2}
     - target: {fileID: 5215339192555993935, guid: 54696b85de8d9b646b88b3c81d447324, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
